@@ -19,8 +19,8 @@ Download all the files and open index.html in a browser
 
 ## Why
 
-- I want a local tool that can quickly find and filter information about D2
 - D2 just has a new hero class in 2026, it is time to play it again
+- I want a local tool that can quickly find and filter information about D2
 
 ## Vibe coding
 
