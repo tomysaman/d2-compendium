@@ -11,8 +11,9 @@ Disclaimer: this is totally vibe coded. I didn't fact check the information if t
 - Run completely local. No database, use json as storage.
 - Rune words
   - Filter by item type, by runes (one or more), or by number of sockets
-  - Sort by required level, category, no. of socket, or name
   - Filter by game/expansion, or by ladder/non-ladder
+  - Search by rune word, or *any* of the effect stats (e.g. you can search for "+2 to all skills") 
+  - Sort by required level, category, no. of socket, or name
 - More to be added
 
 ## To use
