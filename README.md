@@ -4,6 +4,8 @@ Diablo 2 Compendium (vibe coded)
 
 Disclaimer: this is totally vibe coded. I didn't fact check the information if they are 100% correct. I will update if I found any incorrect info in the future as I go.
 
+![Screenshot](https://github.com/tomysaman/d2-compendium/blob/main/assets/screenshot/runewords.png)
+
 ## Features
 
 - Run locally, no database needed
@@ -12,8 +14,6 @@ Disclaimer: this is totally vibe coded. I didn't fact check the information if t
   - Sort by required level,
   - Filter by game/expansion, or by ladder/non-ladder
 - More to be added
-
-![Screenshot](https://github.com/tomysaman/d2-compendium/blob/main/assets/screenshot/runewords.png)
 
 ## To use
 
