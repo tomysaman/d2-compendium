@@ -13,6 +13,8 @@ Disclaimer: this is totally vibe coded. I didn't fact check the information if t
   - Filter by game/expansion, or by ladder/non-ladder
 - More to be added
 
+![image](assets/screenshot.png)
+
 ## To use
 
 Download all the files and open index.html in a browser
