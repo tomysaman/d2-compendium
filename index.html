@@ -21,10 +21,7 @@
           <p class="site-subtitle">Diablo II: Resurrected — Including Reign of the Warlock (2026)</p>
         </div>
       </div>
-      <div class="header-stats" id="headerStats">
-        <span class="stat-pill" id="statTotal">— runewords</span>
-        <span class="stat-pill" id="statShown">— shown</span>
-      </div>
+
     </div>
   </header>
 
@@ -32,10 +29,21 @@
   <section class="filters-section">
     <div class="filters-inner">
 
-      <!-- Search -->
+      <!-- Search + Stats row -->
       <div class="filter-block filter-search-block">
         <label class="filter-label">Search</label>
-        <input type="text" id="searchInput" class="search-input" placeholder="Name or stat..." autocomplete="off" />
+        <div class="search-stats-row">
+          <input type="text" id="searchInput" class="search-input" placeholder="Name or stat..." autocomplete="off" />
+          <div class="header-stats" id="headerStats">
+            <span class="stat-pill" id="statTotal">— runewords</span>
+            <span class="stat-pill" id="statShown">— shown</span>
+            <button class="rune-view-toggle" id="runeViewToggle" title="Toggle rune display">
+              <span class="toggle-icon-text">Aa</span>
+              <span class="toggle-icon-img">⬡</span>
+              <span class="toggle-label" id="toggleLabel">Show Icons</span>
+            </button>
+          </div>
+        </div>
       </div>
 
       <!-- Category -->
@@ -49,7 +57,6 @@
         <label class="filter-label">Sockets</label>
         <div class="pill-group" id="socketFilter">
           <button class="pill active" data-socket="all">Any</button>
-          <button class="pill" data-socket="1">1</button>
           <button class="pill" data-socket="2">2</button>
           <button class="pill" data-socket="3">3</button>
           <button class="pill" data-socket="4">4</button>
@@ -65,23 +72,24 @@
         <button class="clear-runes-btn" id="clearRunesBtn">Clear Runes</button>
       </div>
 
-      <!-- Patch / Ladder -->
-      <div class="filter-block">
-        <label class="filter-label">Source</label>
-        <div class="pill-group" id="patchFilter">
-          <button class="pill active" data-patch="all">All</button>
-          <button class="pill" data-patch="classic">Classic / LoD</button>
-          <button class="pill" data-patch="2.4">Patch 2.4</button>
-          <button class="pill" data-patch="2026">⚔ Reign of the Warlock</button>
+      <!-- Patch / Ladder — single row -->
+      <div class="filter-block filter-source-ladder-row">
+        <div class="source-ladder-group">
+          <label class="filter-label">Source</label>
+          <div class="pill-group" id="patchFilter">
+            <button class="pill active" data-patch="all">All</button>
+            <button class="pill" data-patch="classic">Classic / LoD</button>
+            <button class="pill" data-patch="2.4">Patch 2.4</button>
+            <button class="pill" data-patch="2026">⚔ Reign of the Warlock</button>
+          </div>
         </div>
-      </div>
-
-      <div class="filter-block">
-        <label class="filter-label">Ladder</label>
-        <div class="pill-group" id="ladderFilter">
-          <button class="pill active" data-ladder="all">All</button>
-          <button class="pill" data-ladder="false">Non-Ladder</button>
-          <button class="pill" data-ladder="true">Ladder Only</button>
+        <div class="source-ladder-group">
+          <label class="filter-label">Ladder</label>
+          <div class="pill-group" id="ladderFilter">
+            <button class="pill active" data-ladder="all">All</button>
+            <button class="pill" data-ladder="false">Non-Ladder</button>
+            <button class="pill" data-ladder="true">Ladder Only</button>
+          </div>
         </div>
       </div>
 

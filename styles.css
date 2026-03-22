@@ -87,9 +87,7 @@ body::before {
   padding: 14px 28px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
-  flex-wrap: wrap;
 }
 
 .header-title-block {
@@ -124,8 +122,10 @@ body::before {
 
 .header-stats {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 .stat-pill {
@@ -230,8 +230,28 @@ body::before {
 /* Rune Grid */
 .rune-grid {
   display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
+  flex-wrap: nowrap;
+  gap: 2px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-glow) transparent;
+  /* Fit all 33 runes on one line */
+  min-width: 0;
+}
+/* Make individual rune buttons more compact so they all fit */
+.rune-grid .rune-btn {
+  flex-shrink: 0;
+  padding: 3px 7px;
+  font-size: 0.75rem;
+  border-radius: 3px;
+}
+body.rune-icons .rune-grid .rune-btn {
+  padding: 1px;
+}
+body.rune-icons .rune-grid .rune-icon-img {
+  width: 30px;
+  height: 30px;
 }
 
 .rune-btn {
@@ -241,12 +261,15 @@ body::before {
   color: var(--blue-rune);
   cursor: pointer;
   font-family: var(--font-main);
-  font-size: 0.82rem;
+  font-size: 0.75rem;
   font-weight: 600;
-  padding: 4px 10px;
+  padding: 3px 7px;
   transition: all 0.16s;
   user-select: none;
   letter-spacing: 0.03em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
 }
 .rune-btn:hover {
   border-color: var(--blue-rune);
@@ -258,6 +281,34 @@ body::before {
   color: #9cd0f8;
   box-shadow: 0 0 8px rgba(111,168,216,0.25);
 }
+/* Icon mode sizing for rune grid */
+body.rune-icons .rune-btn {
+  padding: 2px;
+  background: transparent;
+  border-color: transparent;
+  border-radius: var(--radius-sm);
+}
+body.rune-icons .rune-btn:hover {
+  background: #141e28;
+  border-color: var(--blue-rune);
+}
+body.rune-icons .rune-btn.selected {
+  background: #1a2e42;
+  border-color: var(--blue-rune);
+  box-shadow: 0 0 8px rgba(111,168,216,0.25);
+}
+.rune-icon-img {
+  display: none;
+  width: 40px;
+  height: 40px;
+  pointer-events: none;
+  image-rendering: pixelated;
+}
+.rune-icon-label {
+  pointer-events: none;
+}
+body.rune-icons .rune-icon-img   { display: inline-block; }
+body.rune-icons .rune-icon-label { display: none; }
 
 .clear-runes-btn {
   align-self: flex-start;
@@ -483,9 +534,9 @@ body::before {
 .rw-runes {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
   flex-wrap: wrap;
-  padding: 0 16px 12px;
+  padding: 6px 16px 14px;
 }
 
 .rune-tag {
@@ -493,15 +544,16 @@ body::before {
   border: 1px solid #2a4a6a;
   border-radius: 4px;
   color: var(--blue-rune);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 600;
-  padding: 3px 9px;
+  padding: 5px 13px;
   letter-spacing: 0.04em;
 }
 .rune-arrow {
   color: var(--text-muted);
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1;
+  flex-shrink: 0;
 }
 
 /* Stats preview */
@@ -713,6 +765,113 @@ body::before {
 }
 
 
+
+/* ── Search + stats row ── */
+.search-stats-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+}
+.search-stats-row .search-input {
+  flex: 1;
+  max-width: 480px;
+}
+.search-stats-row .header-stats {
+  margin-left: auto;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ══════════════════════════════════════════
+   RUNE VIEW TOGGLE BUTTON
+══════════════════════════════════════════ */
+.rune-view-toggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-glow);
+  border-radius: 20px;
+  color: var(--gold-text);
+  cursor: pointer;
+  font-family: var(--font-main);
+  font-size: 0.85rem;
+  padding: 5px 14px 5px 10px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.rune-view-toggle:hover {
+  background: var(--pill-active);
+  box-shadow: 0 0 10px rgba(200,150,12,0.2);
+  border-color: var(--gold-bright);
+}
+.toggle-icon-text { font-size: 0.9rem; opacity: 0.8; }
+.toggle-icon-img  { font-size: 1rem; display: none; }
+
+body.rune-icons .toggle-icon-text { display: none; }
+body.rune-icons .toggle-icon-img  { display: inline; }
+
+
+
+
+
+/* ── Source + Ladder single row ── */
+.filter-source-ladder-row {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 36px;
+  flex-wrap: nowrap;
+}
+.source-ladder-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+/* ── Rune icons in runeword cards ── */
+.rune-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.rune-tag-img {
+  display: none;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  pointer-events: none;
+  image-rendering: pixelated;
+}
+.rune-tag-label { pointer-events: none; }
+body.rune-icons .rune-tag-img   { display: inline-block; }
+body.rune-icons .rune-tag-label { display: none; }
+body.rune-icons .rune-tag {
+  background: transparent;
+  border-color: transparent;
+  padding: 1px 2px;
+}
+
+/* ── Rune icons in modal ── */
+.modal-rune-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.modal-rune-tag .rune-tag-img {
+  width: 42px;
+  height: 42px;
+  image-rendering: pixelated;
+}
+body.rune-icons .modal-rune-tag {
+  background: transparent;
+  border-color: transparent;
+  padding: 2px 4px;
+}
 /* ── Per-type stat groups in modal ── */
 .modal-type-group {
   margin-bottom: 14px;
