@@ -8,7 +8,7 @@ Disclaimer: this is totally vibe coded. I didn't fact check the information if t
 
 ## Features
 
-- Run locally, no database needed
+- Run completely local. No database, use json as storage.
 - Rune words
   - Filter by item type, by runes (one or more), or by number of sockets
   - Sort by required level,
