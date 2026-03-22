@@ -13,7 +13,7 @@ Disclaimer: this is totally vibe coded. I didn't fact check the information if t
   - Filter by game/expansion, or by ladder/non-ladder
 - More to be added
 
-![image](assets/screenshot.png)
+![Screenshot](assets/screenshot.png "Screenshot")
 
 ## To use
 
