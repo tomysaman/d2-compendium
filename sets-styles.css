@@ -1,0 +1,295 @@
+/* =====================================================
+   DIABLO II — ITEM SETS — sets-styles.css
+   ===================================================== */
+
+/* ── Nav links in header ── */
+.site-nav {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.nav-link {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-family: var(--font-main);
+  font-size: 0.88rem;
+  padding: 5px 16px;
+  text-decoration: none;
+  transition: all 0.18s;
+  white-space: nowrap;
+}
+.nav-link:hover {
+  border-color: var(--gold-dim);
+  color: var(--gold-text);
+}
+.nav-link.active {
+  background: var(--pill-active);
+  border-color: var(--gold);
+  color: var(--gold-bright);
+  box-shadow: 0 0 8px rgba(200,150,12,0.2);
+}
+
+/* ── Tier group headers ── */
+.tier-header {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 0 4px;
+  margin-top: 12px;
+}
+.tier-header:first-child { margin-top: 0; }
+.tier-header-line {
+  flex: 1;
+  height: 1px;
+}
+.tier-header-text {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/* Tier colour coding */
+.tier-Normal  .tier-header-line { background: linear-gradient(90deg, #3a5a2a, transparent); }
+.tier-Normal  .tier-header-text { color: #6abf50; }
+.tier-Exceptional .tier-header-line { background: linear-gradient(90deg, #4a3a1a, transparent); }
+.tier-Exceptional .tier-header-text { color: #c89030; }
+.tier-Elite   .tier-header-line { background: linear-gradient(90deg, #4a1a1a, transparent); }
+.tier-Elite   .tier-header-text { color: #e05030; }
+
+/* ── Sets grid ── */
+.sets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 14px;
+}
+
+/* ── Set card ── */
+.set-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+}
+.set-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-glow);
+  box-shadow: var(--shadow-card), var(--shadow-glow);
+  background: var(--bg-card-hover);
+}
+.set-card.tier-Normal  { border-left: 3px solid #6abf5088; }
+.set-card.tier-Exceptional { border-left: 3px solid #c8903088; }
+.set-card.tier-Elite   { border-left: 3px solid #e0503088; }
+.set-card.is-expansion { border-color: #5a2810; }
+.set-card.is-expansion::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(200,80,30,0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+.set-card.is-expansion:hover {
+  border-color: var(--red-hell);
+  box-shadow: var(--shadow-card), 0 0 20px rgba(200,57,27,0.2);
+}
+
+.set-card-head {
+  padding: 14px 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.set-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+.set-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold-bright);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.set-card.is-expansion .set-name { color: #e87040; }
+.set-card.tier-Normal  .set-name { color: #8ad868; }
+.set-card.tier-Exceptional .set-name { color: #d8a840; }
+
+.set-level {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  padding-top: 3px;
+}
+
+.set-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.badge-class {
+  background: #101a10;
+  border: 1px solid #2a4a2a;
+  color: #6abf50;
+}
+.badge-tier-Normal       { background: #0e160a; border: 1px solid #3a5a1a; color: #6abf50; }
+.badge-tier-Exceptional  { background: #1a140a; border: 1px solid #5a4010; color: #c89030; }
+.badge-tier-Elite        { background: #1a0e0a; border: 1px solid #5a2010; color: #e05030; }
+
+/* ── Pieces list on card ── */
+.set-pieces-preview {
+  border-top: 1px solid var(--border);
+  padding: 8px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.set-piece-line {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.set-piece-line .piece-type {
+  color: var(--text-muted);
+  font-style: italic;
+}
+.set-more {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 3px;
+}
+
+/* ── Full set bonus preview ── */
+.set-bonus-preview {
+  border-top: 1px solid var(--border);
+  padding: 8px 16px 12px;
+}
+.set-bonus-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 5px;
+}
+.set-bonus-line {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.set-bonus-more {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 3px;
+}
+
+/* ══════════════════════════════════════════
+   MODAL — SETS
+══════════════════════════════════════════ */
+.modal-set-name {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+.modal-set-name.tier-Normal       { color: #8ad868; }
+.modal-set-name.tier-Exceptional  { color: #d8a840; }
+.modal-set-name.tier-Elite        { color: var(--gold-bright); }
+.modal-set-name.is-expansion      { color: #e87040; }
+
+.modal-pieces-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.modal-piece-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(58,46,26,0.4);
+  font-size: 1rem;
+}
+.modal-piece-item:last-child { border-bottom: none; }
+.modal-piece-name { color: var(--gold-text); font-weight: 600; }
+.modal-piece-type { color: var(--text-muted); font-style: italic; font-size: 0.9rem; }
+.modal-piece-lvl  { color: var(--text-muted); font-size: 0.82rem; white-space: nowrap; }
+
+.modal-bonuses-section { margin-top: 2px; }
+.modal-partial-bonus {
+  padding: 4px 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  border-bottom: 1px solid rgba(58,46,26,0.3);
+  line-height: 1.4;
+}
+.modal-partial-bonus:last-child { border-bottom: none; }
+.modal-partial-bonus .bonus-condition {
+  color: var(--gold-dim);
+  font-style: italic;
+  font-size: 0.85rem;
+  display: block;
+}
+
+.modal-full-bonus-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.modal-full-bonus-item {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(58,46,26,0.35);
+  line-height: 1.4;
+}
+.modal-full-bonus-item:last-child { border-bottom: none; }
+
+.modal-set-note {
+  margin-top: 14px;
+  padding: 10px 14px;
+  background: #1a1008;
+  border: 1px solid var(--border-glow);
+  border-radius: var(--radius-md);
+  color: var(--gold-text);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* ── Nav also on runewords page ── */
+.header-inner { align-items: center; }
+
+/* ── Tier section wrappers ── */
+.sets-tier-section {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.sets-tier-section .tier-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 14px;
+}
+/* Main sets grid container */
+#setsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
