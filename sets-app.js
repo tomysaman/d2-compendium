@@ -240,14 +240,18 @@ function openModal(set) {
       </div>
 
       <div class="modal-section-label">Set Pieces</div>
-      <ul class="modal-pieces-list">
+      <div class="modal-pieces-list">
         ${set.pieces.map(p => `
-          <li class="modal-piece-item">
-            <span class="modal-piece-name">${p.name}</span>
-            <span class="modal-piece-type">${p.type}</span>
-            <span class="modal-piece-lvl">Lvl ${p.reqLevel}</span>
-          </li>`).join('')}
-      </ul>
+          <div class="modal-piece-block">
+            <div class="modal-piece-header">
+              <span class="modal-piece-name">${p.name}</span>
+              <span class="modal-piece-meta"><span class="modal-piece-type">${p.type}</span> &nbsp;·&nbsp; <span class="modal-piece-lvl">Req. Lvl ${p.reqLevel}</span></span>
+            </div>
+            ${p.stats && p.stats.length ? `<ul class="modal-piece-stats">
+              ${p.stats.map(s => `<li class="modal-piece-stat">${s}</li>`).join('')}
+            </ul>` : ''}
+          </div>`).join('')}
+      </div>
 
       ${partialHtml}
       ${fullHtml}

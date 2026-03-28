@@ -275,6 +275,62 @@
 /* ── Nav also on runewords page ── */
 .header-inner { align-items: center; }
 
+
+/* ── Individual piece stats in modal ── */
+.modal-pieces-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.modal-piece-block {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.modal-piece-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 12px;
+  background: #111009;
+  flex-wrap: wrap;
+}
+.modal-piece-name {
+  color: var(--gold-text);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.modal-piece-meta {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-style: italic;
+  white-space: nowrap;
+}
+.modal-piece-type { color: var(--text-muted); }
+.modal-piece-lvl  { color: var(--text-muted); }
+.modal-piece-stats {
+  list-style: none;
+  padding: 6px 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border);
+}
+.modal-piece-stat {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  padding: 2px 0;
+}
+/* Dim the conditional bonuses (items that say "2 items" or "with X") */
+.modal-piece-stat:has-text("items)"),
+.modal-piece-stat:has-text("with ") {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
 /* ── Tier section wrappers ── */
 .sets-tier-section {
   grid-column: 1 / -1;
