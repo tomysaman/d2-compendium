@@ -4,7 +4,7 @@ Diablo 2 Compendium (vibe coded)
 
 Disclaimer: this is totally vibe coded. I didn't fact check the information if they are 100% correct. I will update if I found any incorrect info in the future as I go.
 
-![Screenshot](assets/screenshot/runewords.png?raw=true&v=20260329)
+![Screenshot](assets/screenshot/runewords.png)
 
 ## Features
 
