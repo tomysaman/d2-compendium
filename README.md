@@ -31,4 +31,4 @@ Download all the files and open index.html in a browser
 
 ## Vibe coding
 
-This is totally vibe coded using Claude Code Sonnet 4.6, done in about 30 mins (including some minor adjustments and putting them up in Github)
+This is totally vibe coded using Claude Code Sonnet 4.6, done in about 30 mins (for the initial runewords page, including some minor adjustments and putting them up in Github)
