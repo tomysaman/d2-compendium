@@ -72,7 +72,10 @@ function getFiltered() {
     if (cls    !== 'all' && set.class !== cls && !(cls === 'Any' && set.class === 'Any')) {
       if (cls !== 'Any' && set.class !== cls) return false;
     }
-    if (patch  !== 'all' && set.patch !== patch)   return false;
+    if (patch !== 'all') {
+      const matchOriginal = patch === 'original' && (set.patch === 'classic' || set.patch === 'lod');
+      if (!matchOriginal && set.patch !== patch) return false;
+    }
     if (ladder === 'true'  && !set.ladder)          return false;
     if (ladder === 'false' &&  set.ladder)          return false;
 
@@ -195,6 +198,7 @@ function patchLabel(set) {
 
 // ─── Modal ────────────────────────────────────────────
 function openModal(set) {
+  history.replaceState(null, '', '#' + encodeURIComponent(set.name));
   const isExpansion = set.patch === '2026';
   const nameClass   = isExpansion ? 'is-expansion' : `tier-${set.tier}`;
 
@@ -267,6 +271,7 @@ function openModal(set) {
 function closeModal() {
   document.getElementById('modal').classList.add('hidden');
   document.body.style.overflow = '';
+  history.replaceState(null, '', window.location.pathname + window.location.search);
 }
 
 // ─── Reset ────────────────────────────────────────────
@@ -282,3 +287,11 @@ function resetAll() {
 
 window.resetAll = resetAll;
 init();
+
+// ─── Hash-based deep link ─────────────────────────────
+window.addEventListener('load', () => {
+  if (!window.location.hash) return;
+  const name = decodeURIComponent(window.location.hash.slice(1));
+  const set = SETS_DATA.find(s => s.name === name);
+  if (set) openModal(set);
+});

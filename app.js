@@ -396,6 +396,7 @@ function renderModalStats(rw) {
 
 // ─── Modal ────────────────────────────────────────────
 function openModal(rw) {
+  history.replaceState(null, '', '#' + encodeURIComponent(rw.name));
   const nameClass = rw.patch === '2026' ? 'modal-expansion-name' : '';
   const html = `
     <div class="modal-inner">
@@ -439,6 +440,7 @@ function openModal(rw) {
 function closeModal() {
   document.getElementById('modal').classList.add('hidden');
   document.body.style.overflow = '';
+  history.replaceState(null, '', window.location.pathname + window.location.search);
 }
 
 // ─── Reset ────────────────────────────────────────────
@@ -485,3 +487,11 @@ window.resetAll = resetAll;
 
 // ─── Kick off ─────────────────────────────────────────
 loadData();
+
+// ─── Hash-based deep link ─────────────────────────────
+window.addEventListener('load', () => {
+  if (!window.location.hash) return;
+  const name = decodeURIComponent(window.location.hash.slice(1));
+  const rw = state.data && state.data.runewords.find(r => r.name === name);
+  if (rw) openModal(rw);
+});
