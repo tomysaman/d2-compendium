@@ -8,6 +8,7 @@ const TIER_ORDER = ['Normal', 'Exceptional', 'Elite'];
 
 // ─── State ───────────────────────────────────────────
 const state = {
+  sort: 'name',
   filters: {
     search:  '',
     tier:    'all',
@@ -55,6 +56,16 @@ function wireEvents() {
 
   // Reset
   document.getElementById('resetBtn').addEventListener('click', resetAll);
+
+  // Sort
+  document.querySelectorAll('.sort-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.sort = btn.dataset.sort;
+      render();
+    });
+  });
 
   // Modal
   document.getElementById('modalClose').addEventListener('click', closeModal);
@@ -122,6 +133,15 @@ function render() {
     const sets = groups[tier];
     if (!sets || sets.length === 0) return;
 
+    // Sort within tier
+    const sorted = [...sets];
+    if (state.sort === 'name') {
+      sorted.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (state.sort === 'level') {
+      sorted.sort((a, b) => a.level - b.level || a.name.localeCompare(b.name));
+    }
+    // default 'tier' keeps insertion order (already grouped)
+
     // Tier wrapper div (for grid + header)
     const wrapper = document.createElement('div');
     wrapper.className = `sets-tier-section tier-${tier}`;
@@ -133,7 +153,7 @@ function render() {
       <div class="sets-grid tier-grid"></div>`;
 
     const innerGrid = wrapper.querySelector('.sets-grid');
-    sets.forEach(set => innerGrid.appendChild(buildCard(set)));
+    sorted.forEach(set => innerGrid.appendChild(buildCard(set)));
     grid.appendChild(wrapper);
   });
 }
@@ -276,12 +296,14 @@ function closeModal() {
 
 // ─── Reset ────────────────────────────────────────────
 function resetAll() {
+  state.sort = 'name';
   state.filters = { search: '', tier: 'all', cls: 'all', patch: 'all', ladder: 'all' };
   document.getElementById('searchInput').value = '';
   ['tierFilter', 'classFilter', 'patchFilter', 'ladderFilter'].forEach(id => {
     document.getElementById(id).querySelectorAll('.pill').forEach((p, i) =>
       p.classList.toggle('active', i === 0));
   });
+  document.querySelectorAll('.sort-btn').forEach((b, i) => b.classList.toggle('active', i === 0));
   render();
 }
 
