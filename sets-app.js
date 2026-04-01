@@ -252,7 +252,7 @@ function openModal(set) {
               <span class="modal-piece-meta"><span class="modal-piece-type">${p.type}</span> &nbsp;·&nbsp; <span class="modal-piece-lvl">Req. Lvl ${p.reqLevel}</span></span>
             </div>
             ${p.stats && p.stats.length ? `<ul class="modal-piece-stats">
-              ${p.stats.map(s => `<li class="modal-piece-stat">${s}</li>`).join('')}
+              ${p.stats.map(s => `<li class="modal-piece-stat${/\(\d+ items?\)/i.test(s) ? ' is-set-bonus' : ''}">${s.replace(/(\(\d+ items?\))/gi, '<span class="set-bonus-tag">$1</span>')}</li>`).join('')}
             </ul>` : ''}
           </div>`).join('')}
       </div>

@@ -1,0 +1,2605 @@
+[
+  {
+    "id": 1,
+    "name": "Angelic Raiment",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 12,
+    "pieces": [
+      {
+        "name": "Angelic Mantle",
+        "type": "Ring Mail",
+        "reqLevel": 12,
+        "stats": [
+          "+40% Enhanced Defense",
+          "Damage Reduced By 3",
+          "+150 Defense (2 items)",
+          "Fire Resist +50% (3 items)"
+        ]
+      },
+      {
+        "name": "Angelic Sickle",
+        "type": "Sabre",
+        "reqLevel": 12,
+        "stats": [
+          "+75 To Attack Rating",
+          "+250% Damage To Undead",
+          "+75% Enhanced Damage (2 items)",
+          "30% Increased Attack Speed (3 items)"
+        ]
+      },
+      {
+        "name": "Angelic Halo",
+        "type": "Ring",
+        "reqLevel": 12,
+        "stats": [
+          "+20 To Life",
+          "Replenish Life +6",
+          "+(12 Per Character Level) 144-1188 To Attack Rating (2 items)",
+          "+50% Better Chance Of Getting Magic Items (3 items)"
+        ]
+      },
+      {
+        "name": "Angelic Wings",
+        "type": "Amulet",
+        "reqLevel": 12,
+        "stats": [
+          "20% Damage Taken Goes To Mana",
+          "+3 To Light Radius",
+          "+75 To Life (2 items)",
+          "+1 To All Skills (3 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 To Life",
+      "(2 items) +(12 Per Level) To Attack Rating (Halo + Wings)",
+      "(3 items) +1 To All Skills",
+      "(3 items) 20% Faster Run/Walk",
+      "(4 items) Half Freeze Duration"
+    ],
+    "fullBonuses": [
+      "Half Freeze Duration",
+      "All Resistances +25",
+      "40% Better Chance Of Getting Magic Items",
+      "Regenerate Mana +8%",
+      "+10 To Dexterity",
+      "+50 To Mana"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Arcanna's Tricks",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Sorceress",
+    "level": 15,
+    "pieces": [
+      {
+        "name": "Arcanna's Head",
+        "type": "Skull Cap",
+        "reqLevel": 15,
+        "stats": [
+          "Replenish Life +4",
+          "Attacker Takes Damage of 2",
+          "+(3 Per Character Level) 3-297 Defense (2 items)",
+          "Lightning Resist +15% (3 items)"
+        ]
+      },
+      {
+        "name": "Arcanna's Flesh",
+        "type": "Light Plate",
+        "reqLevel": 15,
+        "stats": [
+          "+2 To Light Radius",
+          "Damage Reduced By 3",
+          "+100 Defense (2 items)",
+          "+10 To Energy (3 items)"
+        ]
+      },
+      {
+        "name": "Arcanna's Deathwand",
+        "type": "War Staff",
+        "reqLevel": 15,
+        "stats": [
+          "+1 To Sorceress Skill Levels",
+          "25% Deadly Strike",
+          "+50% Damage To Undead",
+          "+50 To Mana (2 items)",
+          "Regenerate Mana +5% (3 items)"
+        ]
+      },
+      {
+        "name": "Arcanna's Sign",
+        "type": "Amulet",
+        "reqLevel": 15,
+        "stats": [
+          "Regenerate Mana 20%",
+          "+15 To Mana",
+          "+50% Better Chance To Find Magic Items (2 items)",
+          "Fire Resist +20% (3 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +25 To Mana",
+      "(3 items) +50 To Life"
+    ],
+    "fullBonuses": [
+      "+50 To Mana",
+      "+50 To Life",
+      "20% Faster Cast Rate",
+      "5% Mana Stolen Per Hit"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Arctic Gear",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Amazon",
+    "level": 2,
+    "pieces": [
+      {
+        "name": "Arctic Furs",
+        "type": "Quilted Armor",
+        "reqLevel": 2,
+        "stats": [
+          "+275-325% Enhanced Defense",
+          "All Resistances +10",
+          "+(3 Per Character Level) 3-297 Defense (2 items)",
+          "Cold Resist +15% (3 items)"
+        ]
+      },
+      {
+        "name": "Arctic Binding",
+        "type": "Light Belt",
+        "reqLevel": 2,
+        "stats": [
+          "Cold Resist +40%",
+          "+30 Defense",
+          "+40% Better Chance Of Getting Magic Items (2 items)",
+          "Cold Resist +10% (3 items)"
+        ]
+      },
+      {
+        "name": "Arctic Horn",
+        "type": "Short War Bow",
+        "reqLevel": 2,
+        "stats": [
+          "+50% Enhanced Damage",
+          "20% Bonus To Attack Rating",
+          "+(8 Per Character Level) 8-792 To Attack Rating (2 items)",
+          "Adds 20-30 Cold Damage (3 items)"
+        ]
+      },
+      {
+        "name": "Arctic Mitts",
+        "type": "Light Gauntlets",
+        "reqLevel": 2,
+        "stats": [
+          "+20 To Life",
+          "10% Increased Attack Speed",
+          "+50 To Attack Rating (2 items)",
+          "+10 To Dexterity (3 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +5 To Strength",
+      "(3 items) +50 To Life"
+    ],
+    "fullBonuses": [
+      "+5 To Strength",
+      "+50 To Life",
+      "Cannot Be Frozen",
+      "Adds 6-14 Cold Damage — 4 Second Duration"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Berserker's Arsenal",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Barbarian",
+    "level": 3,
+    "pieces": [
+      {
+        "name": "Berserker's Headgear",
+        "type": "Helm",
+        "reqLevel": 3,
+        "stats": [
+          "+15 Defense",
+          "Fire Resist +25%",
+          "+(8 Per Character Level) 48-792 To Attack Rating (2 items)"
+        ]
+      },
+      {
+        "name": "Berserker's Hauberk",
+        "type": "Splint Mail",
+        "reqLevel": 3,
+        "stats": [
+          "+1 To Barbarian Skill Levels",
+          "Magic Damage Reduced By 2",
+          "+(3 Per Character Level) 3-297 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Berserker's Hatchet",
+        "type": "Double Axe",
+        "reqLevel": 3,
+        "stats": [
+          "30% Bonus To Attack Rating",
+          "5% Mana Stolen Per Hit",
+          "+50% Enhanced Damage (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 To Life"
+    ],
+    "fullBonuses": [
+      "+50 To Life",
+      "+75 Defense",
+      "Poison Length Reduced By 75%",
+      "Adds 5-9 Poison Damage Over 3 Seconds"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cathan's Traps",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Sorceress",
+    "level": 11,
+    "pieces": [
+      {
+        "name": "Cathan's Rule",
+        "type": "Battle Staff",
+        "reqLevel": 11,
+        "stats": [
+          "+1 To Fire Skills",
+          "+10 Maximum Fire Damage",
+          "+50% Damage To Undead",
+          "+50 To Mana (2 items)",
+          "All Resistances +10 (3 items)"
+        ]
+      },
+      {
+        "name": "Cathan's Mesh",
+        "type": "Chain Mail",
+        "reqLevel": 11,
+        "stats": [
+          "+15 Defense",
+          "Requirements -50%",
+          "Attacker Takes Damage of 5 (2 items)",
+          "Fire Resist +30% (3 items)"
+        ]
+      },
+      {
+        "name": "Cathan's Visage",
+        "type": "Mask",
+        "reqLevel": 11,
+        "stats": [
+          "Cold Resist +25%",
+          "+20 To Mana",
+          "+(2 Per Character Level) 2-198 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Cathan's Sigil",
+        "type": "Amulet",
+        "reqLevel": 11,
+        "stats": [
+          "Attacker Takes Lightning Damage of 5",
+          "10% Faster Hit Recovery",
+          "+50 To Attack Rating (2 items)",
+          "+25% Better Chance of Finding Magic Items (3 items)"
+        ]
+      },
+      {
+        "name": "Cathan's Seal",
+        "type": "Ring",
+        "reqLevel": 11,
+        "stats": [
+          "6% Life Stolen Per Hit",
+          "Damage Reduced By 2",
+          "+10 To Strength (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +15-20 Fire Damage",
+      "(3 items) Lightning Resist +25%"
+    ],
+    "fullBonuses": [
+      "+15-20 Fire Damage",
+      "Lightning Resist +25%",
+      "10% Faster Cast Rate",
+      "Magic Damage Reduced By 3",
+      "All Resistances +25",
+      "+60 To Attack Rating",
+      "+20 To Mana"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Civerb's Vestments",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Paladin",
+    "level": 9,
+    "pieces": [
+      {
+        "name": "Civerb's Cudgel",
+        "type": "Grand Scepter",
+        "reqLevel": 9,
+        "stats": [
+          "+(1 Per Character Level) 1-99 To Maximum Damage",
+          "+17-23 To Maximum Damage",
+          "+50% Damage To Undead",
+          "+75 To Attack Rating"
+        ]
+      },
+      {
+        "name": "Civerb's Ward",
+        "type": "Large Shield",
+        "reqLevel": 9,
+        "stats": [
+          "+15 Defense",
+          "+15% Increased Block",
+          "+21-22 To Mana (with Civerb's Icon)",
+          "Poison Resist +25-26% (with Civerb's Cudgel)"
+        ]
+      },
+      {
+        "name": "Civerb's Icon",
+        "type": "Amulet",
+        "reqLevel": 9,
+        "stats": [
+          "Replenish Life +4",
+          "Regenerate Mana 40%",
+          "Cold Resist +25% (2 items)",
+          "+25 Defense (full set)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) Fire Resist +15%"
+    ],
+    "fullBonuses": [
+      "+200% Damage To Undead",
+      "+15 To Strength",
+      "Fire Resist +15%",
+      "Lightning Resist +25%"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Cleglaw's Brace",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 4,
+    "pieces": [
+      {
+        "name": "Cleglaw's Tooth",
+        "type": "Long Sword",
+        "reqLevel": 4,
+        "stats": [
+          "50% Deadly Strike",
+          "30% Bonus To Attack Rating",
+          "+(1.25 Per Character Level) 1-123 To Maximum Damage (2 items)"
+        ]
+      },
+      {
+        "name": "Cleglaw's Claw",
+        "type": "Small Shield",
+        "reqLevel": 4,
+        "stats": [
+          "Poison Length Reduced By 75%",
+          "+17 Defense",
+          "All Resistances +15 (2 items)"
+        ]
+      },
+      {
+        "name": "Cleglaw's Pincers",
+        "type": "Chain Gloves",
+        "reqLevel": 4,
+        "stats": [
+          "Slows Target By 25%",
+          "Knockback",
+          "+(10 Per Character Level) 10-990 To Attack Rating (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 Defense"
+    ],
+    "fullBonuses": [
+      "+100 Defense",
+      "35% Chance of Crushing Blow",
+      "6% Mana Stolen Per Hit",
+      "20% Increased Attack Speed"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Death's Disguise",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 6,
+    "pieces": [
+      {
+        "name": "Death's Touch",
+        "type": "War Sword",
+        "reqLevel": 6,
+        "stats": [
+          "+25% Enhanced Damage",
+          "4% Life Stolen Per Hit",
+          "Adds 25-75 Cold Damage (2 items)"
+        ]
+      },
+      {
+        "name": "Death's Hand",
+        "type": "Leather Gloves",
+        "reqLevel": 6,
+        "stats": [
+          "Poison Length Reduced By 75%",
+          "Poison Resist +50%",
+          "30% Increased Attack Speed (2 items)"
+        ]
+      },
+      {
+        "name": "Death's Guard",
+        "type": "Sash",
+        "reqLevel": 6,
+        "stats": [
+          "Cannot Be Frozen",
+          "+20 Defense",
+          "All Resistances +15 (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +8% Life Steal"
+    ],
+    "fullBonuses": [
+      "+8% Life Steal",
+      "40% Bonus To Attack Rating",
+      "All Resistances +25",
+      "+10 To Minimum Damage"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Hsarus' Defense",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 3,
+    "pieces": [
+      {
+        "name": "Hsarus' Iron Fist",
+        "type": "Buckler",
+        "reqLevel": 3,
+        "stats": [
+          "Damage Reduced By 2",
+          "+10 To Strength",
+          "+(2.5 Per Character Level) 2-247 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Hsarus' Iron Stay",
+        "type": "Belt",
+        "reqLevel": 3,
+        "stats": [
+          "Cold Resist +20%",
+          "+20 To Life",
+          "+(2.5 Per Character Level) 2-247 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Hsarus' Iron Heel",
+        "type": "Chain Boots",
+        "reqLevel": 3,
+        "stats": [
+          "20% Faster Run/Walk",
+          "Fire Resist +25%",
+          "+(10 Per Character Level) 10-990 To Attack Rating (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) Attacker Takes Damage of 5"
+    ],
+    "fullBonuses": [
+      "Attacker Takes Damage of 5",
+      "Cannot Be Frozen",
+      "Lightning Resist +25%",
+      "+5 To Maximum Damage"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Infernal Tools",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Necromancer",
+    "level": 5,
+    "pieces": [
+      {
+        "name": "Infernal Cranium",
+        "type": "Cap",
+        "reqLevel": 5,
+        "stats": [
+          "20% Damage Taken Goes To Mana",
+          "All Resistances +10",
+          "+(2 Per Character Level) 2-198 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Infernal Sign",
+        "type": "Heavy Belt",
+        "reqLevel": 5,
+        "stats": [
+          "+25 Defense",
+          "+20 To Life",
+          "Poison Resist +25% (2 items)",
+          "Half Freeze Duration (3 items)"
+        ]
+      },
+      {
+        "name": "Infernal Torch",
+        "type": "Grim Wand",
+        "reqLevel": 5,
+        "stats": [
+          "+1 To Necromancer Skill Levels",
+          "+8 To Minimum Damage",
+          "150% Damage To Undead",
+          "+(10 Per Character Level) 10-990 To Attack Rating (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +8 Poison Damage Over 3 Seconds"
+    ],
+    "fullBonuses": [
+      "+8 Poison Damage Over 3 Seconds",
+      "20% Chance of Open Wounds",
+      "+1 To Necromancer Skill Levels",
+      "20% Bonus To Attack Rating",
+      "6% Mana Stolen Per Hit"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Iratha's Finery",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 15,
+    "pieces": [
+      {
+        "name": "Iratha's Coil",
+        "type": "Crown",
+        "reqLevel": 15,
+        "stats": [
+          "Lightning Resist +30%",
+          "Fire Resist +30%",
+          "+(2 Per Character Level) 2-198 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Iratha's Cord",
+        "type": "Heavy Belt",
+        "reqLevel": 15,
+        "stats": [
+          "+5 To Minimum Damage",
+          "+25 Defense",
+          "+10 To Dexterity (2 items)"
+        ]
+      },
+      {
+        "name": "Iratha's Cuff",
+        "type": "Light Gauntlets",
+        "reqLevel": 15,
+        "stats": [
+          "Cold Resist +30%",
+          "Half Freeze Duration",
+          "+20% Increased Attack Speed (2 items)"
+        ]
+      },
+      {
+        "name": "Iratha's Collar",
+        "type": "Amulet",
+        "reqLevel": 15,
+        "stats": [
+          "Poison Resist +30%",
+          "Poison Length Reduced By 75%",
+          "All Resistances +15 (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 To Defense",
+      "(3 items) 20% Faster Run/Walk",
+      "(3 items) +24% Piercing Attack"
+    ],
+    "fullBonuses": [
+      "+50 To Defense",
+      "20% Faster Run/Walk",
+      "+15 To Dexterity",
+      "+10% To Maximum Poison Resist",
+      "+10% To Maximum Cold Resist",
+      "+10% To Maximum Lightning Resist",
+      "+10% To Maximum Fire Resist",
+      "All Resistances +20"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Isenhart's Armory",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 8,
+    "pieces": [
+      {
+        "name": "Isenhart's Lightbrand",
+        "type": "Broad Sword",
+        "reqLevel": 8,
+        "stats": [
+          "+20% Increased Attack Speed",
+          "+10 To Minimum Damage",
+          "+(5 Per Character Level) 5-495 To Attack Rating (2 items)"
+        ]
+      },
+      {
+        "name": "Isenhart's Parry",
+        "type": "Gothic Shield",
+        "reqLevel": 8,
+        "stats": [
+          "+40 Defense",
+          "Attacker Takes Lightning Damage of 4",
+          "All Resistances +8 (2 items)"
+        ]
+      },
+      {
+        "name": "Isenhart's Case",
+        "type": "Breast Plate",
+        "reqLevel": 8,
+        "stats": [
+          "+40 Defense",
+          "Magic Damage Reduced By 2",
+          "+(4 Per Character Level) 4-396 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Isenhart's Horns",
+        "type": "Full Helm",
+        "reqLevel": 8,
+        "stats": [
+          "+6 To Dexterity",
+          "Damage Reduced By 2",
+          "All Resistances +8 (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +10 To Strength",
+      "(3 items) 35% Damage Taken Goes To Mana",
+      "(4 items) +40 To Life"
+    ],
+    "fullBonuses": [
+      "+10 To Strength",
+      "35% Damage Taken Goes To Mana",
+      "+40 To Life",
+      "All Resistances +8",
+      "+35 Defense"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Milabrega's Regalia",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Paladin",
+    "level": 17,
+    "pieces": [
+      {
+        "name": "Milabrega's Rod",
+        "type": "War Scepter",
+        "reqLevel": 17,
+        "stats": [
+          "+1 To Paladin Skill Levels",
+          "+50% Enhanced Damage",
+          "+2 To Light Radius"
+        ]
+      },
+      {
+        "name": "Milabrega's Orb",
+        "type": "Kite Shield",
+        "reqLevel": 17,
+        "stats": [
+          "20% Better Chance Of Getting Magic Items",
+          "+25 Defense",
+          "+50 To Life (2 items)",
+          "+50% Enhanced Defense (full set)"
+        ]
+      },
+      {
+        "name": "Milabrega's Robe",
+        "type": "Ancient Armor",
+        "reqLevel": 17,
+        "stats": [
+          "Attacker Takes Damage of 3",
+          "Damage Reduced By 2",
+          "+100% Enhanced Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Milabrega's Diadem",
+        "type": "Crown",
+        "reqLevel": 17,
+        "stats": [
+          "+15 To Life",
+          "+15 To Mana",
+          "Cold Resist +40%"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 To Life",
+      "(3 items) Cold Resist +40%",
+      "(4 items) +2 To Light Radius"
+    ],
+    "fullBonuses": [
+      "+1 To Offensive Auras (Paladin Only)",
+      "+1 To Prayer",
+      "+150% Enhanced Damage",
+      "+50% Enhanced Defense",
+      "+50 To Life",
+      "Cold Resist +40%"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Sigon's Complete Steel",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 6,
+    "pieces": [
+      {
+        "name": "Sigon's Gage",
+        "type": "Gauntlets",
+        "reqLevel": 6,
+        "stats": [
+          "+10 To Strength",
+          "+20 To Attack Rating",
+          "30% Increased Attack Speed (with Guard)",
+          "+1 To All Skills (with Shelter)"
+        ]
+      },
+      {
+        "name": "Sigon's Guard",
+        "type": "Tower Shield",
+        "reqLevel": 6,
+        "stats": [
+          "+1 To All Skills",
+          "+20% Increased Chance Of Blocking",
+          "30% Increased Attack Speed (with Gage)"
+        ]
+      },
+      {
+        "name": "Sigon's Shelter",
+        "type": "Gothic Plate",
+        "reqLevel": 6,
+        "stats": [
+          "+75% Enhanced Defense",
+          "Lightning Resist +30%",
+          "+1 To All Skills (with Gage)"
+        ]
+      },
+      {
+        "name": "Sigon's Visor",
+        "type": "Great Helm",
+        "reqLevel": 6,
+        "stats": [
+          "+30 To Mana",
+          "+3 To Light Radius"
+        ]
+      },
+      {
+        "name": "Sigon's Sabot",
+        "type": "Greaves",
+        "reqLevel": 6,
+        "stats": [
+          "20% Faster Run/Walk",
+          "Cold Resist +40%",
+          "20% Faster Hit Recovery (with Wrap)"
+        ]
+      },
+      {
+        "name": "Sigon's Wrap",
+        "type": "Plated Belt",
+        "reqLevel": 6,
+        "stats": [
+          "10% Life Stolen Per Hit",
+          "+20 Defense",
+          "20% Faster Hit Recovery (with Sabot)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) 30% Increased Attack Speed",
+      "(2 items) +1 To All Skills",
+      "(2 items) 20% Faster Hit Recovery",
+      "(3 items) 10% Life Stolen Per Hit",
+      "(3 items) +100 To Attack Rating",
+      "(4 items) Fire Resist +40%"
+    ],
+    "fullBonuses": [
+      "+1 To All Skills",
+      "30% Increased Attack Speed",
+      "10% Life Stolen Per Hit",
+      "+100 To Attack Rating",
+      "Fire Resist +40%",
+      "+25 To Strength",
+      "+100 Defense"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Tancred's Battlegear",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Any",
+    "level": 20,
+    "pieces": [
+      {
+        "name": "Tancred's Crowbill",
+        "type": "Military Pick",
+        "reqLevel": 20,
+        "stats": [
+          "+75% Enhanced Damage",
+          "+25 To Strength",
+          "+(5 Per Character Level) 5-495 To Attack Rating (2 items)"
+        ]
+      },
+      {
+        "name": "Tancred's Spine",
+        "type": "Full Plate Mail",
+        "reqLevel": 20,
+        "stats": [
+          "+40% Enhanced Defense",
+          "All Resistances +10"
+        ]
+      },
+      {
+        "name": "Tancred's Hobnails",
+        "type": "Boots",
+        "reqLevel": 20,
+        "stats": [
+          "+10% Faster Run/Walk",
+          "+10 To Dexterity",
+          "+(5 Per Character Level) 5-495 To Attack Rating (2 items)"
+        ]
+      },
+      {
+        "name": "Tancred's Weird",
+        "type": "Amulet",
+        "reqLevel": 20,
+        "stats": [
+          "+75 To Attack Rating",
+          "+10 To Dexterity"
+        ]
+      },
+      {
+        "name": "Tancred's Skull",
+        "type": "Bone Helm",
+        "reqLevel": 20,
+        "stats": [
+          "+40% Enhanced Defense",
+          "Attacker Takes Damage of 5",
+          "+(5 Per Character Level) 5-495 To Attack Rating (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) Attacker Takes Damage of 20",
+      "(3 items) 35% Deadly Strike",
+      "(4 items) Slows Target By 35%"
+    ],
+    "fullBonuses": [
+      "Attacker Takes Damage of 20",
+      "35% Deadly Strike",
+      "Slows Target By 35%",
+      "+75% Enhanced Damage",
+      "All Resistances +10",
+      "+225 Defense",
+      "+10 To Dexterity"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Vidala's Rig",
+    "tier": "Normal",
+    "patch": "classic",
+    "ladder": false,
+    "class": "Amazon",
+    "level": 14,
+    "pieces": [
+      {
+        "name": "Vidala's Barb",
+        "type": "Long Battle Bow",
+        "reqLevel": 14,
+        "stats": [
+          "Adds 1-20 Lightning Damage",
+          "+(8 Per Character Level) 8-792 To Attack Rating (2 items)"
+        ]
+      },
+      {
+        "name": "Vidala's Fetlock",
+        "type": "Light Plated Boots",
+        "reqLevel": 14,
+        "stats": [
+          "30% Faster Run/Walk",
+          "+15 To Dexterity"
+        ]
+      },
+      {
+        "name": "Vidala's Ambush",
+        "type": "Leather Armor",
+        "reqLevel": 14,
+        "stats": [
+          "+11 To Vitality",
+          "+50 Defense"
+        ]
+      },
+      {
+        "name": "Vidala's Snare",
+        "type": "Amulet",
+        "reqLevel": 14,
+        "stats": [
+          "+20 To Life",
+          "Cannot Be Frozen"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 To Life",
+      "(3 items) +200 To Attack Rating",
+      "(4 items) Freezes Target"
+    ],
+    "fullBonuses": [
+      "Freezes Target",
+      "+50 To Life",
+      "+200 To Attack Rating",
+      "+100% Enhanced Damage",
+      "+11 To Vitality",
+      "+50 Defense",
+      "Cannot Be Frozen"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Aldur's Watchtower",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Druid",
+    "level": 76,
+    "pieces": [
+      {
+        "name": "Aldur's Stony Gaze",
+        "type": "Hunter's Guise",
+        "reqLevel": 36,
+        "stats": [
+          "Regenerate Mana 17%",
+          "+5 To Energy",
+          "Cold Resist +17%",
+          "+(1 Per Character Level) 1-99 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Aldur's Deception",
+        "type": "Shadow Plate",
+        "reqLevel": 76,
+        "stats": [
+          "+180% Enhanced Defense",
+          "Cold Resist +50%",
+          "Fire Resist +50%",
+          "+(30 Per Character Level) 30-2970 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Aldur's Rhythm",
+        "type": "Jagged Star",
+        "reqLevel": 42,
+        "stats": [
+          "40% Increased Attack Speed",
+          "+200% Enhanced Damage",
+          "+50% Damage To Undead",
+          "+(25 Per Character Level) 25-2475 To Attack Rating (2 items)"
+        ]
+      },
+      {
+        "name": "Aldur's Advance",
+        "type": "Battle Boots",
+        "reqLevel": 45,
+        "stats": [
+          "+40% Faster Run/Walk",
+          "+180 To Life",
+          "Fire Resist +50%",
+          "10% Damage Taken Goes To Mana"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +15 To Dexterity",
+      "(2 items) +15 To Energy",
+      "(3 items) +40 To Life",
+      "(4 items) All Resistances +40%"
+    ],
+    "fullBonuses": [
+      "+15 To Dexterity",
+      "+15 To Energy",
+      "+40 To Life",
+      "All Resistances +40%",
+      "+1 To Elemental (Druid Only)",
+      "+3 To Shape Shifting (Druid Only)",
+      "+150 To Mana",
+      "40% Faster Run/Walk"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Bul-Kathos' Children",
+    "tier": "Elite",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Barbarian",
+    "level": 66,
+    "pieces": [
+      {
+        "name": "Bul-Kathos' Sacred Charge",
+        "type": "Colossus Blade",
+        "reqLevel": 66,
+        "stats": [
+          "+200% Enhanced Damage",
+          "+50% Damage To Undead",
+          "+80 To Life",
+          "20% Increased Attack Speed"
+        ]
+      },
+      {
+        "name": "Bul-Kathos' Tribal Guardian",
+        "type": "Mythical Sword",
+        "reqLevel": 66,
+        "stats": [
+          "+200% Enhanced Damage",
+          "50% Chance Of Crushing Blow",
+          "15% Life Stolen Per Hit",
+          "+50 To Life"
+        ]
+      }
+    ],
+    "partialBonuses": [],
+    "fullBonuses": [
+      "+1 To All Skills",
+      "+200 To Life",
+      "50% Chance Of Crushing Blow",
+      "+20% Increased Attack Speed"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Cow King's Leathers",
+    "tier": "Normal",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Any",
+    "level": 25,
+    "pieces": [
+      {
+        "name": "Cow King's Horns",
+        "type": "War Hat",
+        "reqLevel": 25,
+        "stats": [
+          "+75 Defense",
+          "Half Freeze Duration",
+          "35% Damage Taken Goes To Mana",
+          "Attacker Takes Damage of 10"
+        ]
+      },
+      {
+        "name": "Cow King's Hide",
+        "type": "Studded Leather",
+        "reqLevel": 25,
+        "stats": [
+          "All Resistances +18",
+          "+60% Enhanced Defense",
+          "+30 To Life",
+          "15% Chance To Cast Level 5 Static Field When Struck"
+        ]
+      },
+      {
+        "name": "Cow King's Hooves",
+        "type": "Heavy Boots",
+        "reqLevel": 25,
+        "stats": [
+          "+25-35 Defense",
+          "30% Faster Run/Walk",
+          "25% Better Chance Of Getting Magic Items",
+          "+20 To Dexterity",
+          "Adds 25-35 Fire Damage"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +100 To Life",
+      "(3 items) 15% Chance To Cast Level 5 Static Field When Struck"
+    ],
+    "fullBonuses": [
+      "+100 To Life",
+      "15% Chance To Cast Level 5 Static Field When Struck",
+      "100% Better Chance Of Getting Magic Items",
+      "100% Extra Gold From Monsters",
+      "+25 To Strength",
+      "30% Increased Attack Speed"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "The Disciple",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Any",
+    "level": 65,
+    "pieces": [
+      {
+        "name": "Dark Adherent",
+        "type": "Dusk Shroud",
+        "reqLevel": 65,
+        "stats": [
+          "Fire Resist +40%",
+          "Poison Resist +40%",
+          "+76% Enhanced Defense",
+          "Adds 13-25 Poison Damage Over 3 Seconds"
+        ]
+      },
+      {
+        "name": "Credendum",
+        "type": "Mithril Coil",
+        "reqLevel": 65,
+        "stats": [
+          "All Resistances +15",
+          "+45% Enhanced Defense",
+          "+15 To Strength"
+        ]
+      },
+      {
+        "name": "Telling of Beads",
+        "type": "Amulet",
+        "reqLevel": 65,
+        "stats": [
+          "Poison Resist +35%",
+          "10% Faster Hit Recovery",
+          "Magic Damage Reduced By 2",
+          "+1 To All Skills"
+        ]
+      },
+      {
+        "name": "Laying of Hands",
+        "type": "Bramble Mitts",
+        "reqLevel": 65,
+        "stats": [
+          "+20% Increased Attack Speed",
+          "+25% Damage To Demons",
+          "+350% Damage To Undead",
+          "Fire Resist +50%",
+          "Attacker Takes Damage of 20"
+        ]
+      },
+      {
+        "name": "Rite of Passage",
+        "type": "Demonhide Boots",
+        "reqLevel": 65,
+        "stats": [
+          "+20% Faster Run/Walk",
+          "10% Faster Hit Recovery",
+          "+15% Increased Maximum Mana",
+          "+33% Enhanced Defense"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) All Resistances +15",
+      "(3 items) +1 To All Skills",
+      "(4 items) Poison Resist +25%",
+      "(5 items) +50% Enhanced Damage"
+    ],
+    "fullBonuses": [
+      "All Resistances +15",
+      "+1 To All Skills",
+      "Poison Resist +25%",
+      "+50% Enhanced Damage",
+      "+150 To Life",
+      "20% Faster Run/Walk",
+      "100% Better Chance Of Getting Magic Items"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Griswold's Legacy",
+    "tier": "Elite",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Paladin",
+    "level": 69,
+    "pieces": [
+      {
+        "name": "Griswold's Valor",
+        "type": "Corona",
+        "reqLevel": 69,
+        "stats": [
+          "+2 To Paladin Skill Levels",
+          "20% Faster Hit Recovery",
+          "+100 Defense",
+          "All Resistances +20",
+          "+(0.5 Per Character Level) To Life"
+        ]
+      },
+      {
+        "name": "Griswold's Heart",
+        "type": "Ornate Plate",
+        "reqLevel": 45,
+        "stats": [
+          "+400% Enhanced Defense",
+          "All Resistances +20",
+          "+50% Damage To Undead"
+        ]
+      },
+      {
+        "name": "Griswold's Honor",
+        "type": "Vortex Shield",
+        "reqLevel": 68,
+        "stats": [
+          "+50% Enhanced Defense",
+          "+20% Increased Chance Of Blocking",
+          "Damage Reduced By 15",
+          "+2 To Combat Skills (Paladin Only)"
+        ]
+      },
+      {
+        "name": "Griswold's Redemption",
+        "type": "Caduceus",
+        "reqLevel": 69,
+        "stats": [
+          "+200% Enhanced Damage",
+          "+2 To Paladin Skill Levels",
+          "+35% Increased Attack Speed",
+          "Prevent Monster Heal"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +2 To Offensive Auras (Paladin Only)",
+      "(3 items) 30% Better Chance Of Getting Magic Items",
+      "(4 items) All Resistances +65"
+    ],
+    "fullBonuses": [
+      "+2 To Offensive Auras (Paladin Only)",
+      "30% Better Chance Of Getting Magic Items",
+      "All Resistances +65",
+      "+3 To Combat Skills (Paladin Only)",
+      "+50 To Life",
+      "+400 Defense"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Heaven's Brethren",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Any",
+    "level": 45,
+    "pieces": [
+      {
+        "name": "Dangoon's Teaching",
+        "type": "Reinforced Mace",
+        "reqLevel": 45,
+        "stats": [
+          "+180% Enhanced Damage",
+          "+50% Damage To Undead",
+          "Adds 25-50 Fire Damage",
+          "20% Increased Attack Speed"
+        ]
+      },
+      {
+        "name": "Taebaek's Glory",
+        "type": "Ward",
+        "reqLevel": 45,
+        "stats": [
+          "+30% Faster Block Rate",
+          "+20% Increased Chance Of Blocking",
+          "+100 Defense",
+          "Lightning Resist +43%"
+        ]
+      },
+      {
+        "name": "Haemosu's Adament",
+        "type": "Cuirass",
+        "reqLevel": 45,
+        "stats": [
+          "+250% Enhanced Defense",
+          "+30 To Strength",
+          "Half Freeze Duration",
+          "Damage Reduced By 10%"
+        ]
+      },
+      {
+        "name": "Ondal's Almighty",
+        "type": "Spired Helm",
+        "reqLevel": 45,
+        "stats": [
+          "+2 To All Skills",
+          "+30% Faster Run/Walk",
+          "Lightning Resist +30%",
+          "+35 Defense"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 To Life",
+      "(3 items) +50% Enhanced Damage",
+      "(4 items) Indestructible"
+    ],
+    "fullBonuses": [
+      "+50 To Life",
+      "+50% Enhanced Damage",
+      "Indestructible",
+      "+250 Defense",
+      "+10 To All Attributes",
+      "All Resistances +20"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Hwanin's Majesty",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Any",
+    "level": 45,
+    "pieces": [
+      {
+        "name": "Hwanin's Justice",
+        "type": "Bill",
+        "reqLevel": 45,
+        "stats": [
+          "+200% Enhanced Damage",
+          "Adds 1-200 Lightning Damage",
+          "+20% Increased Attack Speed",
+          "15% Chance To Cast Level 5 Blaze When Struck"
+        ]
+      },
+      {
+        "name": "Hwanin's Refuge",
+        "type": "Tigulated Mail",
+        "reqLevel": 45,
+        "stats": [
+          "+170% Enhanced Defense",
+          "Cold Resist +30%",
+          "10% Damage Taken Goes To Mana",
+          "+10 To Energy"
+        ]
+      },
+      {
+        "name": "Hwanin's Blessing",
+        "type": "Belt",
+        "reqLevel": 45,
+        "stats": [
+          "+20 To Life",
+          "Lightning Resist +40%",
+          "5% Mana Stolen Per Hit"
+        ]
+      },
+      {
+        "name": "Hwanin's Splendor",
+        "type": "Grand Crown",
+        "reqLevel": 45,
+        "stats": [
+          "+100 Defense",
+          "+150 To Mana",
+          "+5 To Light Radius",
+          "Replenish Life +10"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +10 To Energy",
+      "(3 items) 5% Mana Stolen Per Hit",
+      "(4 items) Cold Resist +40%"
+    ],
+    "fullBonuses": [
+      "+10 To Energy",
+      "5% Mana Stolen Per Hit",
+      "Cold Resist +40%",
+      "+200 To Life",
+      "30% Increased Attack Speed",
+      "+5 To Light Radius",
+      "Lightning Damage +1-200"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Immortal King",
+    "tier": "Elite",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Barbarian",
+    "level": 76,
+    "pieces": [
+      {
+        "name": "Immortal King's Will",
+        "type": "Avenger Guard",
+        "reqLevel": 47,
+        "stats": [
+          "+37% Enhanced Defense",
+          "+2 To Warcries (Barbarian Only)",
+          "+20 To Strength",
+          "Adds 211-397 Fire Damage"
+        ]
+      },
+      {
+        "name": "Immortal King's Soul Cage",
+        "type": "Sacred Armor",
+        "reqLevel": 76,
+        "stats": [
+          "+400% Enhanced Defense",
+          "All Resistances +40",
+          "Fire Resist +50%",
+          "+20 To Vitality"
+        ]
+      },
+      {
+        "name": "Immortal King's Pillar",
+        "type": "War Traveler",
+        "reqLevel": 29,
+        "stats": [
+          "+40% Faster Run/Walk",
+          "+130% Enhanced Defense",
+          "+37 To Strength",
+          "35% Better Chance Of Getting Magic Items"
+        ]
+      },
+      {
+        "name": "Immortal King's Detail",
+        "type": "War Belt",
+        "reqLevel": 29,
+        "stats": [
+          "+36% Enhanced Defense",
+          "+25 To Strength",
+          "Lightning Resist +35%",
+          "Fire Resist +35%"
+        ]
+      },
+      {
+        "name": "Immortal King's Forge",
+        "type": "War Gauntlets",
+        "reqLevel": 30,
+        "stats": [
+          "+65% Enhanced Defense",
+          "+20 To Strength",
+          "+20 To Dexterity",
+          "10% Increased Attack Speed"
+        ]
+      },
+      {
+        "name": "Immortal King's Stone Crusher",
+        "type": "Ogre Maul",
+        "reqLevel": 76,
+        "stats": [
+          "+200% Enhanced Damage",
+          "+50% Damage To Demons",
+          "+250 To Attack Rating Against Demons",
+          "+40% Increased Attack Speed",
+          "35% Chance Of Crushing Blow"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50 To Life",
+      "(3 items) All Resistances +25",
+      "(4 items) 50% Better Chance Of Getting Magic Items",
+      "(5 items) +400 Defense",
+      "(6 items) +250 To Attack Rating, Damage Reduced By 10%"
+    ],
+    "fullBonuses": [
+      "+50 To Life",
+      "All Resistances +25",
+      "50% Better Chance Of Getting Magic Items",
+      "+400 Defense",
+      "+250 To Attack Rating",
+      "Damage Reduced By 10%",
+      "+2 To Combat Masteries (Barbarian Only)",
+      "+2 To Warcries (Barbarian Only)",
+      "+2 To Combat Skills (Barbarian Only)"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "M'avina's Battle Hymn",
+    "tier": "Elite",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Amazon",
+    "level": 70,
+    "pieces": [
+      {
+        "name": "M'avina's True Sight",
+        "type": "Diadem",
+        "reqLevel": 70,
+        "stats": [
+          "+150% Enhanced Defense",
+          "30% Faster Hit Recovery",
+          "All Resistances +30",
+          "+1 To Amazon Skill Levels",
+          "+20% Increased Attack Speed"
+        ]
+      },
+      {
+        "name": "M'avina's Embrace",
+        "type": "Kraken Shell",
+        "reqLevel": 70,
+        "stats": [
+          "+170% Enhanced Defense",
+          "+350 To Defense vs. Missile",
+          "Cold Resist +15%",
+          "+20 To Strength",
+          "Replenish Life +10"
+        ]
+      },
+      {
+        "name": "M'avina's Tenet",
+        "type": "Sharkskin Belt",
+        "reqLevel": 45,
+        "stats": [
+          "+50% Enhanced Defense",
+          "20% Faster Hit Recovery",
+          "+3 To Dexterity",
+          "+(3 Per Character Level) To Life"
+        ]
+      },
+      {
+        "name": "M'avina's Icy Clutch",
+        "type": "Battle Gauntlets",
+        "reqLevel": 45,
+        "stats": [
+          "+30 To Attack Rating",
+          "Adds 6-18 Cold Damage",
+          "+10 To Strength",
+          "+15 To Dexterity"
+        ]
+      },
+      {
+        "name": "M'avina's Caster",
+        "type": "Grand Matron Bow",
+        "reqLevel": 70,
+        "stats": [
+          "+188% Enhanced Damage",
+          "+50 To Attack Rating",
+          "+3 To Amazon Skill Levels",
+          "15% Increased Attack Speed"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +100 To Attack Rating",
+      "(3 items) Freezes Target",
+      "(4 items) 5% Mana Stolen Per Hit",
+      "(5 items) +1 To Amazon Skills"
+    ],
+    "fullBonuses": [
+      "+100 To Attack Rating",
+      "Freezes Target",
+      "5% Mana Stolen Per Hit",
+      "+1 To Amazon Skills",
+      "All Resistances +50",
+      "+350 Defense",
+      "+20% Increased Attack Speed"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Natalya's Odium",
+    "tier": "Elite",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Assassin",
+    "level": 79,
+    "pieces": [
+      {
+        "name": "Natalya's Totem",
+        "type": "Grim Helm",
+        "reqLevel": 59,
+        "stats": [
+          "+2 To Assassin Skill Levels",
+          "+20 To Life",
+          "All Resistances +25",
+          "+3 To Shadow Disciplines (Assassin Only)"
+        ]
+      },
+      {
+        "name": "Natalya's Shadow",
+        "type": "Loricated Mail",
+        "reqLevel": 73,
+        "stats": [
+          "+150% Enhanced Defense",
+          "+225 To Defense vs. Missile",
+          "All Resistances +20",
+          "Cold Resist +25%",
+          "Lightning Resist +25%"
+        ]
+      },
+      {
+        "name": "Natalya's Soul",
+        "type": "Mesh Boots",
+        "reqLevel": 25,
+        "stats": [
+          "+40% Faster Run/Walk",
+          "+75 To Defense",
+          "Cold Resist +25%",
+          "Lightning Resist +25%"
+        ]
+      },
+      {
+        "name": "Natalya's Mark",
+        "type": "Scissors Suwayyah",
+        "reqLevel": 79,
+        "stats": [
+          "+200% Enhanced Damage",
+          "+2 To Assassin Skill Levels",
+          "Ignore Target's Defense",
+          "+(0.5 Per Character Level) Deadly Strike"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) Cold Resist +25%",
+      "(2 items) Lightning Resist +25%",
+      "(3 items) Poison Resist +25%",
+      "(4 items) +350 Defense"
+    ],
+    "fullBonuses": [
+      "Cold Resist +25%",
+      "Lightning Resist +25%",
+      "Poison Resist +25%",
+      "+350 Defense",
+      "+3 To Assassin Skills",
+      "+50 To Life",
+      "+2 To Bow And Crossbow Skills"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Naj's Ancient Vestige",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Any",
+    "level": 71,
+    "pieces": [
+      {
+        "name": "Naj's Puzzler",
+        "type": "Elder Staff",
+        "reqLevel": 71,
+        "stats": [
+          "+1 To All Skills",
+          "+150% Enhanced Damage",
+          "30% Faster Cast Rate",
+          "+70 To Mana",
+          "Adds 6-45 Lightning Damage",
+          "Level 11 Teleport (69 Charges)"
+        ]
+      },
+      {
+        "name": "Naj's Light Plate",
+        "type": "Hellforge Plate",
+        "reqLevel": 71,
+        "stats": [
+          "+1 To All Skills",
+          "All Resistances +25",
+          "+65 To Life",
+          "Requirements -60%",
+          "45% Damage Taken Goes To Mana",
+          "+300 Defense"
+        ]
+      },
+      {
+        "name": "Naj's Circlet",
+        "type": "Circlet",
+        "reqLevel": 53,
+        "stats": [
+          "+35 To Energy",
+          "+25% Faster Cast Rate"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +75 To Mana",
+      "(3 items) +25% Faster Run/Walk"
+    ],
+    "fullBonuses": [
+      "+75 To Mana",
+      "+25% Faster Run/Walk",
+      "+3 To Fire Skills",
+      "+3 To Lightning Skills",
+      "+3 To Cold Skills",
+      "All Resistances +65",
+      "+1 To All Skills",
+      "+75 To Life"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Orphan's Call",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Any",
+    "level": 42,
+    "pieces": [
+      {
+        "name": "Guillaume's Face",
+        "type": "Winged Helm",
+        "reqLevel": 34,
+        "stats": [
+          "+35% Enhanced Defense",
+          "30% Faster Hit Recovery",
+          "35% Deadly Strike",
+          "15% Chance Of Crushing Blow",
+          "+120 To Defense vs. Missile"
+        ]
+      },
+      {
+        "name": "Wilhelm's Pride",
+        "type": "Battle Belt",
+        "reqLevel": 42,
+        "stats": [
+          "+2 Life After Each Kill",
+          "+2 Mana After Each Kill",
+          "Life Stolen Per Hit 8%",
+          "+50 Defense"
+        ]
+      },
+      {
+        "name": "Magnus' Skin",
+        "type": "Sharkskin Gloves",
+        "reqLevel": 37,
+        "stats": [
+          "+20% Increased Attack Speed",
+          "+50 To Defense",
+          "10% Life Stolen Per Hit"
+        ]
+      },
+      {
+        "name": "Whitstan's Guard",
+        "type": "Round Shield",
+        "reqLevel": 29,
+        "stats": [
+          "+55% Faster Block Rate",
+          "+50% Enhanced Defense",
+          "+175 Defense vs. Missile",
+          "+50% Increased Chance Of Blocking"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) 10% Life Stolen Per Hit",
+      "(3 items) 35% Deadly Strike",
+      "(4 items) Knockback"
+    ],
+    "fullBonuses": [
+      "10% Life Stolen Per Hit",
+      "35% Deadly Strike",
+      "Knockback",
+      "+100% Enhanced Defense",
+      "+25 To Strength",
+      "+50 To Life"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Sander's Folly",
+    "tier": "Normal",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Necromancer",
+    "level": 25,
+    "pieces": [
+      {
+        "name": "Sander's Paragon",
+        "type": "Cap",
+        "reqLevel": 25,
+        "stats": [
+          "+75 To Life",
+          "+15 To Dexterity",
+          "+(2 Per Character Level) 2-198 Defense (2 items)"
+        ]
+      },
+      {
+        "name": "Sander's Riprap",
+        "type": "Heavy Boots",
+        "reqLevel": 25,
+        "stats": [
+          "+40% Faster Run/Walk",
+          "+20 To Strength",
+          "+(1 Per Character Level) 1-99 To Attack Rating (2 items)"
+        ]
+      },
+      {
+        "name": "Sander's Taboo",
+        "type": "Heavy Gloves",
+        "reqLevel": 25,
+        "stats": [
+          "+20% Increased Attack Speed",
+          "+1 To Mana After Each Kill"
+        ]
+      },
+      {
+        "name": "Sander's Superstition",
+        "type": "Bone Wand",
+        "reqLevel": 25,
+        "stats": [
+          "+1 To Necromancer Skill Levels",
+          "+75% Enhanced Damage",
+          "+25 To Energy",
+          "Adds 25-80 Cold Damage — 2 Second Duration"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +75 To Mana",
+      "(3 items) +50 To Life"
+    ],
+    "fullBonuses": [
+      "+75 To Mana",
+      "+50 To Life",
+      "+1 To Necromancer Skills",
+      "+100 To Attack Rating",
+      "+35 To Vitality",
+      "+35 To Dexterity"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Sazabi's Grand Tribute",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Any",
+    "level": 51,
+    "pieces": [
+      {
+        "name": "Sazabi's Mental Sheath",
+        "type": "Basinet",
+        "reqLevel": 51,
+        "stats": [
+          "+100 Defense",
+          "Cold Resist +30%",
+          "+20 To Energy"
+        ]
+      },
+      {
+        "name": "Sazabi's Ghost Liberator",
+        "type": "Balrog Skin",
+        "reqLevel": 51,
+        "stats": [
+          "+175% Enhanced Defense",
+          "+30 To Vitality",
+          "Cold Resist +17%",
+          "Fire Resist +17%"
+        ]
+      },
+      {
+        "name": "Sazabi's Cobalt Redeemer",
+        "type": "Cryptic Sword",
+        "reqLevel": 51,
+        "stats": [
+          "+150% Enhanced Damage",
+          "+65 To Life",
+          "30% Faster Hit Recovery",
+          "20% Increased Attack Speed",
+          "Adds 25-100 Cold Damage — 6 Second Duration"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) Cold Resist +40%",
+      "(3 items) +175 To Life"
+    ],
+    "fullBonuses": [
+      "Cold Resist +40%",
+      "+175 To Life",
+      "+150 Defense",
+      "30% Faster Hit Recovery",
+      "20% Increased Attack Speed"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Tal Rasha's Wrappings",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Sorceress",
+    "level": 71,
+    "pieces": [
+      {
+        "name": "Tal Rasha's Lidless Eye",
+        "type": "Swirling Crystal",
+        "reqLevel": 65,
+        "stats": [
+          "+2 To Sorceress Skill Levels",
+          "+20% Faster Cast Rate",
+          "+25-45 To Mana",
+          "+10 To Energy",
+          "Lightning Resist +33%"
+        ]
+      },
+      {
+        "name": "Tal Rasha's Guardianship",
+        "type": "Lacquered Plate",
+        "reqLevel": 71,
+        "stats": [
+          "+400% Enhanced Defense",
+          "Cold Resist +40%",
+          "Lightning Resist +40%",
+          "Magic Damage Reduced By 15",
+          "Requirements -60%"
+        ]
+      },
+      {
+        "name": "Tal Rasha's Fine-Spun Cloth",
+        "type": "Mesh Belt",
+        "reqLevel": 26,
+        "stats": [
+          "+30-50% Enhanced Defense",
+          "+20 To Dexterity",
+          "+30 To Mana",
+          "15% Damage Taken Goes To Mana"
+        ]
+      },
+      {
+        "name": "Tal Rasha's Adjudication",
+        "type": "Amulet",
+        "reqLevel": 65,
+        "stats": [
+          "+2 To Sorceress Skill Levels",
+          "+25-50 Lightning Damage",
+          "+45 To Life",
+          "+42 To Mana"
+        ]
+      },
+      {
+        "name": "Tal Rasha's Horadric Crest",
+        "type": "Death Mask",
+        "reqLevel": 66,
+        "stats": [
+          "+30 To Life",
+          "+30 To Mana",
+          "All Resistances +15",
+          "10% Life Stolen Per Hit",
+          "10% Mana Stolen Per Hit"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +65 To Life",
+      "(2 items) +150 To Mana",
+      "(3 items) +50 To Mana",
+      "(3 items) Lightning Resist +33%",
+      "(4 items) Cold Resist +33%",
+      "(4 items) Fire Resist +33%"
+    ],
+    "fullBonuses": [
+      "+65 To Life",
+      "+150 To Mana",
+      "Lightning Resist +33%",
+      "Cold Resist +33%",
+      "Fire Resist +33%",
+      "+2 To Sorceress Skills",
+      "+3 To Fire Mastery",
+      "+3 To Lightning Mastery",
+      "+3 To Cold Mastery"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Trang-Oul's Avatar",
+    "tier": "Exceptional",
+    "patch": "lod",
+    "ladder": false,
+    "class": "Necromancer",
+    "level": 65,
+    "pieces": [
+      {
+        "name": "Trang-Oul's Guise",
+        "type": "Bone Visage",
+        "reqLevel": 65,
+        "stats": [
+          "+100 Defense",
+          "+25% Faster Hit Recovery",
+          "Replenish Life +5",
+          "Attacker Takes Damage of 20",
+          "+(1.5 Per Character Level) To Life"
+        ]
+      },
+      {
+        "name": "Trang-Oul's Scales",
+        "type": "Chaos Armor",
+        "reqLevel": 65,
+        "stats": [
+          "+750 Defense",
+          "+100% Enhanced Defense",
+          "Cold Resist +40%",
+          "20% Faster Hit Recovery",
+          "Poison Resist +40%"
+        ]
+      },
+      {
+        "name": "Trang-Oul's Wing",
+        "type": "Cantor Trophy",
+        "reqLevel": 65,
+        "stats": [
+          "+125 Defense",
+          "+2 To Necromancer Skill Levels",
+          "+30% Faster Block Rate",
+          "+30 To Mana",
+          "Cold Resist +35%"
+        ]
+      },
+      {
+        "name": "Trang-Oul's Claws",
+        "type": "Heavy Bracers",
+        "reqLevel": 45,
+        "stats": [
+          "+20% Faster Cast Rate",
+          "+30% Faster Block Rate",
+          "+2 To Necromancer Skill Levels",
+          "+25% Cold Skill Damage",
+          "+30 To Mana"
+        ]
+      },
+      {
+        "name": "Trang-Oul's Girth",
+        "type": "Troll Belt",
+        "reqLevel": 62,
+        "stats": [
+          "+66 To Life",
+          "+25% Enhanced Defense",
+          "Replenish Life +5",
+          "+30 To Strength",
+          "Cannot Be Frozen"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) Cold Resist +40%",
+      "(3 items) Fire Resist +40%",
+      "(4 items) 20% Faster Cast Rate",
+      "(5 items) Regenerate Mana 15%"
+    ],
+    "fullBonuses": [
+      "Cold Resist +40%",
+      "Fire Resist +40%",
+      "20% Faster Cast Rate",
+      "Regenerate Mana 15%",
+      "+25% Damage To Undead",
+      "+150 Defense",
+      "+2 To Necromancer Skills",
+      "+1 To Curses (Necromancer Only)"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Bane's Garments",
+    "tier": "Elite",
+    "patch": "2.6",
+    "ladder": false,
+    "class": "Any",
+    "level": 65,
+    "pieces": [
+      {
+        "name": "Bane's Oathmaker",
+        "type": "Kris",
+        "reqLevel": 65,
+        "stats": [
+          "+20% Faster Run/Walk",
+          "+(99 Per Character Level) To Maximum Damage",
+          "+30% Deadly Strike (3 items)",
+          "+3 To Mana After Each Kill (2 items)"
+        ]
+      },
+      {
+        "name": "Bane's Wraithskin",
+        "type": "Hard Leather Armor",
+        "reqLevel": 65,
+        "stats": [
+          "+50 Defense",
+          "Magic Resist +30%",
+          "+(792 Per Character Level) To Attack Rating (3 items)",
+          "+25% Faster Hit Recovery (2 items)"
+        ]
+      },
+      {
+        "name": "Bane's Authority",
+        "type": "Light Belt",
+        "reqLevel": 65,
+        "stats": [
+          "+10% Faster Cast Rate",
+          "+20 To Life",
+          "+15 To Energy (3 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +3 To Mana After Each Kill",
+      "(2 items) +25% Faster Hit Recovery",
+      "(3 items) +30% Deadly Strike",
+      "(3 items) +(792 Per Character Level) To Attack Rating",
+      "(3 items) +15 To Energy"
+    ],
+    "fullBonuses": [
+      "+1 To All Skills",
+      "+25% Faster Cast Rate",
+      "+80% Enhanced Damage",
+      "+15 To Dexterity",
+      "40% Better Chance Of Getting Magic Items"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Horazon's Splendor",
+    "tier": "Elite",
+    "patch": "2.6",
+    "ladder": false,
+    "class": "Warlock",
+    "level": 70,
+    "pieces": [
+      {
+        "name": "Horazon's Countenance",
+        "type": "Demonhead",
+        "reqLevel": 70,
+        "stats": [
+          "+1 To Warlock Skills",
+          "99% Bonus To Attack Rating (Based On Character Level)",
+          "10-20 To Strength",
+          "Magic Damage Reduced By 7-10",
+          "+15 To Strength (4 items)",
+          "Increase Maximum Life 5% (2 items)"
+        ]
+      },
+      {
+        "name": "Horazon's Dominion",
+        "type": "Russet Armor",
+        "reqLevel": 70,
+        "stats": [
+          "+2 To Demon Skills (Warlock Only)",
+          "75-100% Enhanced Defense",
+          "75-100 To Mana",
+          "Cold Resist 15-25%",
+          "Lightning Resist 15-25%",
+          "Fire Resist 15-25%",
+          "+15 To Vitality (4 items)",
+          "Poison Resist +25% (2 items)"
+        ]
+      },
+      {
+        "name": "Horazon's Hold",
+        "type": "Demonhide Gloves",
+        "reqLevel": 70,
+        "stats": [
+          "95-150 To Attack Rating",
+          "Adds 140-270 Fire Damage",
+          "+10% Chance Of Crushing Blow",
+          "10-15 To Dexterity",
+          "30-40 To Life",
+          "7% Life Stolen Per Hit (4 items)",
+          "7% Mana Stolen Per Hit (3 items)",
+          "+30% Increased Attack Speed (2 items)"
+        ]
+      },
+      {
+        "name": "Horazon's Legacy",
+        "type": "Mirrored Boots",
+        "reqLevel": 70,
+        "stats": [
+          "+30% Faster Run/Walk",
+          "10-15 To Strength",
+          "10-15 To Dexterity",
+          "Magic Resist 20-30%",
+          "Cannot Be Frozen",
+          "Requirements -30%",
+          "+10% Faster Run/Walk (2 items)"
+        ]
+      },
+      {
+        "name": "Horazon's Secrets",
+        "type": "Occult Codex",
+        "reqLevel": 70,
+        "stats": [
+          "+2 To Eldritch Skills (Warlock Only)",
+          "+30% Faster Hit Recovery",
+          "20% Increased Chance Of Blocking",
+          "20-30 To Vitality",
+          "30-50 To Life",
+          "+15 To Energy (4 items)",
+          "-25% To Enemy Fire Resistance (4 items)",
+          "Poison Length Reduced By 75% (2 items)"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) Increase Maximum Life 5%",
+      "(2 items) Poison Resist +25%",
+      "(2 items) +30% Increased Attack Speed",
+      "(2 items) +10% Faster Run/Walk",
+      "(2 items) Poison Length Reduced By 75%",
+      "(3 items) 7% Mana Stolen Per Hit",
+      "(4 items) +15 To Strength",
+      "(4 items) +15 To Vitality",
+      "(4 items) 7% Life Stolen Per Hit",
+      "(4 items) +15 To Energy",
+      "(4 items) -25% To Enemy Fire Resistance"
+    ],
+    "fullBonuses": [
+      "+3 To Warlock Skills",
+      "+350% Enhanced Damage",
+      "+30 To Enchant",
+      "+300 Defense",
+      "+20 To Dexterity",
+      "+30 To Energy",
+      "All Resistances +50",
+      "100% Better Chance Of Getting Magic Items"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Talic's Anguish",
+    "tier": "Elite",
+    "patch": "2026",
+    "ladder": false,
+    "class": "Any",
+    "expansion": "Reign of the Warlock",
+    "level": 76,
+    "note": "Colossal Ancient Statue drop",
+    "pieces": [
+      {
+        "name": "Talic's Resolve",
+        "type": "Corona",
+        "reqLevel": 75,
+        "stats": [
+          "+2 To All Skills",
+          "+150% Enhanced Defense",
+          "All Resistances +20",
+          "+75 To Life"
+        ]
+      },
+      {
+        "name": "Talic's Fury",
+        "type": "Sacred Armor",
+        "reqLevel": 76,
+        "stats": [
+          "+400% Enhanced Defense",
+          "All Resistances +30",
+          "Damage Reduced By 8%",
+          "+100 To Life"
+        ]
+      },
+      {
+        "name": "Talic's Grip",
+        "type": "Ogre Gauntlets",
+        "reqLevel": 75,
+        "stats": [
+          "+50% Enhanced Damage",
+          "+20% Increased Attack Speed",
+          "+30 To Strength",
+          "+25% Faster Hit Recovery"
+        ]
+      },
+      {
+        "name": "Talic's Stand",
+        "type": "Mirrored Boots",
+        "reqLevel": 75,
+        "stats": [
+          "+40% Faster Run/Walk",
+          "+75 Defense",
+          "Cannot Be Frozen",
+          "+50 To Life"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +50% Enhanced Damage",
+      "(3 items) All Resistances +30",
+      "(4 items) +2 To All Skills"
+    ],
+    "fullBonuses": [
+      "+2 To All Skills",
+      "+50% Enhanced Damage",
+      "All Resistances +30",
+      "+500 Defense",
+      "+200 To Life",
+      "20% Faster Hit Recovery",
+      "Cannot Be Frozen"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Korlic's Pain",
+    "tier": "Elite",
+    "patch": "2026",
+    "ladder": false,
+    "class": "Barbarian",
+    "expansion": "Reign of the Warlock",
+    "level": 75,
+    "note": "Colossal Ancient Statue drop",
+    "pieces": [
+      {
+        "name": "Korlic's Might",
+        "type": "Colossus Blade",
+        "reqLevel": 75,
+        "stats": [
+          "+250% Enhanced Damage",
+          "35% Chance Of Crushing Blow",
+          "15% Life Stolen Per Hit",
+          "40% Increased Attack Speed"
+        ]
+      },
+      {
+        "name": "Korlic's Vow",
+        "type": "Savage Helmet",
+        "reqLevel": 75,
+        "stats": [
+          "+2 To Barbarian Skill Levels",
+          "+50 To Life",
+          "All Resistances +20",
+          "+200% Enhanced Defense"
+        ]
+      },
+      {
+        "name": "Korlic's Fury",
+        "type": "War Belt",
+        "reqLevel": 75,
+        "stats": [
+          "+30 To Strength",
+          "+30 To Life",
+          "+100% Enhanced Defense",
+          "Cannot Be Frozen"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +300% Enhanced Damage",
+      "(3 items) +3 To Warcries (Barbarian Only)"
+    ],
+    "fullBonuses": [
+      "+300% Enhanced Damage",
+      "+3 To Warcries (Barbarian Only)",
+      "+3 To Combat Skills (Barbarian Only)",
+      "50% Chance Of Crushing Blow",
+      "+150 To Life",
+      "+50 To Strength"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Madawc's Ire",
+    "tier": "Elite",
+    "patch": "2026",
+    "ladder": false,
+    "class": "Barbarian",
+    "expansion": "Reign of the Warlock",
+    "level": 75,
+    "note": "Colossal Ancient Statue drop",
+    "pieces": [
+      {
+        "name": "Madawc's Throw",
+        "type": "Battle Dart",
+        "reqLevel": 75,
+        "stats": [
+          "+200% Enhanced Damage",
+          "20% Increased Attack Speed",
+          "10% Chance Of Open Wounds",
+          "Replenish Quantity"
+        ]
+      },
+      {
+        "name": "Madawc's Return",
+        "type": "War Spike",
+        "reqLevel": 75,
+        "stats": [
+          "+180% Enhanced Damage",
+          "15% Deadly Strike",
+          "20% Increased Attack Speed",
+          "Replenish Quantity"
+        ]
+      },
+      {
+        "name": "Madawc's Fury",
+        "type": "Colossus Girdle",
+        "reqLevel": 75,
+        "stats": [
+          "+2 To Warcries (Barbarian Only)",
+          "+50 To Life",
+          "+30 To Strength",
+          "+100% Enhanced Defense"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +2 To Warcries (Barbarian Only)",
+      "(3 items) 40% Increased Attack Speed"
+    ],
+    "fullBonuses": [
+      "+2 To Warcries (Barbarian Only)",
+      "40% Increased Attack Speed",
+      "+250% Enhanced Damage",
+      "30% Deadly Strike",
+      "+100 To Life",
+      "Cannot Be Frozen"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Bul-Kathos' Nightmare",
+    "tier": "Elite",
+    "patch": "2026",
+    "ladder": false,
+    "class": "Barbarian",
+    "expansion": "Reign of the Warlock",
+    "level": 76,
+    "note": "Colossal Ancient Statue drop",
+    "pieces": [
+      {
+        "name": "Bul-Kathos' Vision",
+        "type": "Armet",
+        "reqLevel": 75,
+        "stats": [
+          "+2 To All Skills",
+          "+75 To Life",
+          "All Resistances +25",
+          "+200% Enhanced Defense"
+        ]
+      },
+      {
+        "name": "Bul-Kathos' Wrath",
+        "type": "Colossus Blade",
+        "reqLevel": 75,
+        "stats": [
+          "+280% Enhanced Damage",
+          "+200% Damage To Demons",
+          "40% Increased Attack Speed",
+          "Prevent Monster Heal"
+        ]
+      },
+      {
+        "name": "Bul-Kathos' Covenant",
+        "type": "Sacred Armor",
+        "reqLevel": 76,
+        "stats": [
+          "+350% Enhanced Defense",
+          "All Resistances +30",
+          "Damage Reduced By 10%",
+          "+100 To Life"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +200% Damage To Demons",
+      "(3 items) +3 To All Skills"
+    ],
+    "fullBonuses": [
+      "+3 To All Skills",
+      "+200% Damage To Demons",
+      "+300% Enhanced Damage",
+      "All Resistances +40",
+      "+250 To Life",
+      "Indestructible"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Worusk's End",
+    "tier": "Elite",
+    "patch": "2026",
+    "ladder": false,
+    "class": "Any",
+    "expansion": "Reign of the Warlock",
+    "level": 75,
+    "note": "Colossal Ancient Statue drop",
+    "pieces": [
+      {
+        "name": "Worusk's Resolve",
+        "type": "Diadem",
+        "reqLevel": 75,
+        "stats": [
+          "+1 To All Skills",
+          "+50 To Life",
+          "All Resistances +20",
+          "+40% Enhanced Defense"
+        ]
+      },
+      {
+        "name": "Worusk's Grasp",
+        "type": "Bramble Mitts",
+        "reqLevel": 75,
+        "stats": [
+          "+20% Faster Hit Recovery",
+          "+50 To Life",
+          "+30 To Dexterity",
+          "+50% Enhanced Defense"
+        ]
+      },
+      {
+        "name": "Worusk's Stride",
+        "type": "Mirrored Boots",
+        "reqLevel": 75,
+        "stats": [
+          "+40% Faster Run/Walk",
+          "+30 To Life",
+          "+30 To Dexterity",
+          "Cannot Be Frozen"
+        ]
+      },
+      {
+        "name": "Worusk's Seal",
+        "type": "Amulet",
+        "reqLevel": 75,
+        "stats": [
+          "+1 To All Skills",
+          "+50 To Mana",
+          "All Resistances +20",
+          "50% Better Chance Of Getting Magic Items"
+        ]
+      }
+    ],
+    "partialBonuses": [
+      "(2 items) +1 To All Skills",
+      "(3 items) 50% Better Chance Of Getting Magic Items",
+      "(4 items) All Resistances +50"
+    ],
+    "fullBonuses": [
+      "+1 To All Skills",
+      "50% Better Chance Of Getting Magic Items",
+      "All Resistances +50",
+      "+200 To Life",
+      "+100 To Mana",
+      "+30 To All Attributes"
+    ]
+  }
+]

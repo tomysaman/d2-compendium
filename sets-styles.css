@@ -331,6 +331,27 @@
   font-style: italic;
 }
 
+
+/* ── Set-bonus stats on individual pieces ── */
+.modal-piece-stat.is-set-bonus {
+  color: var(--green-set);
+  font-style: italic;
+}
+.set-bonus-tag {
+  display: inline-block;
+  background: rgba(95, 184, 122, 0.12);
+  border: 1px solid rgba(95, 184, 122, 0.35);
+  border-radius: 3px;
+  color: var(--green-set);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-left: 4px;
+  padding: 1px 5px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
 /* ── Tier section wrappers ── */
 .sets-tier-section {
   grid-column: 1 / -1;
