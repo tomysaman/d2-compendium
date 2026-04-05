@@ -239,11 +239,11 @@ body::before {
   /* Fit all 33 runes on one line */
   min-width: 0;
 }
-/* Make individual rune buttons more compact so they all fit */
+/* Make individual rune buttons fit on one line */
 .rune-grid .rune-btn {
   flex-shrink: 0;
-  padding: 3px 7px;
-  font-size: 0.75rem;
+  padding: 5px 9px;
+  font-size: 0.82rem;
   border-radius: 3px;
 }
 body.rune-icons .rune-grid .rune-btn {
@@ -261,9 +261,9 @@ body.rune-icons .rune-grid .rune-icon-img {
   color: var(--blue-rune);
   cursor: pointer;
   font-family: var(--font-main);
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   font-weight: 600;
-  padding: 3px 7px;
+  padding: 5px 9px;
   transition: all 0.16s;
   user-select: none;
   letter-spacing: 0.03em;
