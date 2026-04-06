@@ -54,11 +54,8 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +50 To Life",
-      "(2 items) +(12 Per Level) To Attack Rating (Halo + Wings)",
-      "(3 items) +1 To All Skills",
-      "(3 items) 20% Faster Run/Walk",
-      "(4 items) Half Freeze Duration"
+      "(2 items) +10 To Dexterity",
+      "(3 items) +50 To Mana"
     ],
     "fullBonuses": [
       "Half Freeze Duration",
@@ -125,14 +122,16 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +25 To Mana",
-      "(3 items) +50 To Life"
+      "(2 items) +50 To Mana",
+      "(3 items) +50 To Life",
+      "(3 items) Regenerate Mana 12%"
     ],
     "fullBonuses": [
       "+50 To Mana",
       "+50 To Life",
       "20% Faster Cast Rate",
-      "5% Mana Stolen Per Hit"
+      "5% Mana Stolen Per Hit",
+      "+1 To All Skills"
     ]
   },
   {
@@ -197,7 +196,7 @@
       "+5 To Strength",
       "+50 To Life",
       "Cannot Be Frozen",
-      "Adds 6-14 Cold Damage \u2014 4 Second Duration"
+      "+(2 Per Character Level) 2-198 To Maximum Cold Damage"
     ]
   },
   {
@@ -372,13 +371,15 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) Fire Resist +15%"
+      "(2 items) Fire Resist +25%"
     ],
     "fullBonuses": [
       "+200% Damage To Undead",
       "+15 To Strength",
       "Fire Resist +15%",
-      "Lightning Resist +25%"
+      "Lightning Resist +25%",
+      "25% Bonus To Attack Rating",
+      "+(4 Per Character Level) 4-396 Defense"
     ]
   },
   {
@@ -581,7 +582,9 @@
       "20% Chance of Open Wounds",
       "+1 To Necromancer Skill Levels",
       "20% Bonus To Attack Rating",
-      "6% Mana Stolen Per Hit"
+      "6% Mana Stolen Per Hit",
+      "+20% Maximum Mana",
+      "Cannot Be Frozen"
     ]
   },
   {
@@ -702,15 +705,16 @@
     ],
     "partialBonuses": [
       "(2 items) +10 To Strength",
-      "(3 items) 35% Damage Taken Goes To Mana",
-      "(4 items) +40 To Life"
+      "(3 items) +10 To Dexterity"
     ],
     "fullBonuses": [
       "+10 To Strength",
-      "35% Damage Taken Goes To Mana",
-      "+40 To Life",
-      "All Resistances +8",
-      "+35 Defense"
+      "+10 To Dexterity",
+      "20% Faster Run/Walk",
+      "+30% Increased Chance Of Blocking",
+      "35% Bonus To Attack Rating",
+      "5% Life Stolen Per Hit",
+      "All Resistances +10"
     ]
   },
   {
@@ -765,17 +769,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +50 To Life",
-      "(3 items) Cold Resist +40%",
-      "(4 items) +2 To Light Radius"
+      "(2 items) +75 To Attack Rating",
+      "(2 items) +(2 Per Character Level) 2-198 Lightning Damage",
+      "(3 items) +125 To Attack Rating",
+      "(3 items) Cannot Be Frozen"
     ],
     "fullBonuses": [
-      "+1 To Offensive Auras (Paladin Only)",
-      "+1 To Prayer",
-      "+150% Enhanced Damage",
-      "+50% Enhanced Defense",
-      "+50 To Life",
-      "Cold Resist +40%"
+      "+200 To Attack Rating",
+      "+2 To Paladin Skill Levels",
+      "8% Life Stolen Per Hit",
+      "10% Mana Stolen Per Hit",
+      "Poison Resist +15%"
     ]
   },
   {
@@ -849,21 +853,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) 30% Increased Attack Speed",
-      "(2 items) +1 To All Skills",
-      "(2 items) 20% Faster Hit Recovery",
-      "(3 items) 10% Life Stolen Per Hit",
-      "(3 items) +100 To Attack Rating",
-      "(4 items) Fire Resist +40%"
+      "(2 items) 10% Life Stolen Per Hit",
+      "(3 items) +100 Defense"
     ],
     "fullBonuses": [
-      "+1 To All Skills",
-      "30% Increased Attack Speed",
       "10% Life Stolen Per Hit",
-      "+100 To Attack Rating",
-      "Fire Resist +40%",
-      "+25 To Strength",
-      "+100 Defense"
+      "+100 Defense",
+      "+20 To Mana",
+      "Fire Resist +12%",
+      "+24 To Maximum Fire Damage",
+      "Attacker Takes Damage of 12",
+      "Damage Reduced By 7"
     ]
   },
   {
@@ -925,18 +925,16 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) Attacker Takes Damage of 20",
-      "(3 items) 35% Deadly Strike",
-      "(4 items) Slows Target By 35%"
+      "(2 items) +15 Lightning Damage",
+      "(3 items) 5% Life Stolen Per Hit"
     ],
     "fullBonuses": [
-      "Attacker Takes Damage of 20",
-      "35% Deadly Strike",
+      "+15 Lightning Damage",
+      "5% Life Stolen Per Hit",
       "Slows Target By 35%",
-      "+75% Enhanced Damage",
+      "5% Mana Stolen Per Hit",
       "All Resistances +10",
-      "+225 Defense",
-      "+10 To Dexterity"
+      "75% Extra Gold From Monsters"
     ]
   },
   {
@@ -986,18 +984,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +50 To Life",
-      "(3 items) +200 To Attack Rating",
-      "(4 items) Freezes Target"
+      "(2 items) +75 To Attack Rating",
+      "(2 items) 7% Mana Stolen Per Hit",
+      "(3 items) +15 To Dexterity"
     ],
     "fullBonuses": [
+      "+75 To Attack Rating",
+      "+(1.5 Per Character Level) 1-148 To Maximum Cold Damage",
+      "Piercing Attack 50%",
       "Freezes Target",
-      "+50 To Life",
-      "+200 To Attack Rating",
-      "+100% Enhanced Damage",
-      "+11 To Vitality",
-      "+50 Defense",
-      "Cannot Be Frozen"
+      "+15 To Dexterity",
+      "+10 To Strength"
     ]
   },
   {
@@ -1007,7 +1004,7 @@
     "patch": "lod",
     "ladder": false,
     "class": "Druid",
-    "level": 36,
+    "level": 76,
     "pieces": [
       {
         "name": "Aldur's Stony Gaze",
@@ -1055,20 +1052,18 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +15 To Dexterity",
-      "(2 items) +15 To Energy",
-      "(3 items) +40 To Life",
-      "(4 items) All Resistances +40%"
+      "(2 items) 150% Bonus To Attack Rating",
+      "(3 items) 50% Better Chance Of Getting Magic Items"
     ],
     "fullBonuses": [
-      "+15 To Dexterity",
-      "+15 To Energy",
-      "+40 To Life",
-      "All Resistances +40%",
-      "+1 To Elemental (Druid Only)",
-      "+3 To Shape Shifting (Druid Only)",
-      "+150 To Mana",
-      "40% Faster Run/Walk"
+      "+3 To Druid Skills",
+      "+350% Enhanced Damage",
+      "150% Bonus To Attack Rating",
+      "50% Better Chance Of Getting Magic Items",
+      "10% Mana Stolen Per Hit",
+      "All Resistances +50",
+      "+150 Defense",
+      "+150 To Mana"
     ]
   },
   {
@@ -1105,10 +1100,14 @@
     ],
     "partialBonuses": [],
     "fullBonuses": [
-      "+1 To All Skills",
-      "+200 To Life",
-      "50% Chance Of Crushing Blow",
-      "+20% Increased Attack Speed"
+      "+2 To All Skills",
+      "+200 To Attack Rating",
+      "+200% Damage To Demons",
+      "+200% Damage To Undead",
+      "+200 Fire Damage",
+      "+200 Defense",
+      "10% Life Stolen Per Hit",
+      "+20% Deadly Strike"
     ]
   },
   {
@@ -1156,16 +1155,19 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +100 To Life",
-      "(3 items) 15% Chance To Cast Level 5 Static Field When Struck"
+      "(2 items) Poison Resist +25%",
+      "(2 items) +(5 Per Character Level) 5-495 Defense"
     ],
     "fullBonuses": [
-      "+100 To Life",
-      "15% Chance To Cast Level 5 Static Field When Struck",
+      "Poison Resist +25%",
+      "25% Chance To Cast Level 5 Static Field When Struck",
+      "+100 Maximum Stamina",
+      "+20 To Strength",
+      "30% Increased Attack Speed",
       "100% Better Chance Of Getting Magic Items",
       "100% Extra Gold From Monsters",
-      "+25 To Strength",
-      "30% Increased Attack Speed"
+      "+100 To Life",
+      "+1 To All Skills"
     ]
   },
   {
@@ -1234,19 +1236,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) All Resistances +15",
-      "(3 items) +1 To All Skills",
-      "(4 items) Poison Resist +25%",
-      "(5 items) +50% Enhanced Damage"
+      "(2 items) +150 Defense",
+      "(3 items) +22 Poison Damage Over 3 Seconds",
+      "(4 items) +10 To Strength"
     ],
     "fullBonuses": [
-      "All Resistances +15",
-      "+1 To All Skills",
-      "Poison Resist +25%",
-      "+50% Enhanced Damage",
-      "+150 To Life",
-      "20% Faster Run/Walk",
-      "100% Better Chance Of Getting Magic Items"
+      "+150 Defense",
+      "+22 Poison Damage Over 3 Seconds",
+      "+10 To Strength",
+      "+2 To All Skills",
+      "All Resistances +50",
+      "+100 To Mana"
     ]
   },
   {
@@ -1304,17 +1304,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +2 To Offensive Auras (Paladin Only)",
-      "(3 items) 30% Better Chance Of Getting Magic Items",
-      "(4 items) All Resistances +65"
+      "(2 items) +20 To Strength",
+      "(3 items) +30 To Dexterity"
     ],
     "fullBonuses": [
-      "+2 To Offensive Auras (Paladin Only)",
-      "30% Better Chance Of Getting Magic Items",
-      "All Resistances +65",
-      "+3 To Combat Skills (Paladin Only)",
-      "+50 To Life",
-      "+400 Defense"
+      "+3 To Paladin Skill Levels",
+      "30% Faster Hit Recovery",
+      "+200 To Attack Rating",
+      "+20 To Strength",
+      "+30 To Dexterity",
+      "+150 To Life",
+      "All Resistances +50"
     ]
   },
   {
@@ -1372,17 +1372,16 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +50 To Life",
-      "(3 items) +50% Enhanced Damage",
-      "(4 items) Indestructible"
+      "(2 items) Heal Stamina Plus 50%",
+      "(3 items) Replenish Life +20"
     ],
     "fullBonuses": [
-      "+50 To Life",
-      "+50% Enhanced Damage",
-      "Indestructible",
-      "+250 Defense",
-      "+10 To All Attributes",
-      "All Resistances +20"
+      "+2 To All Skills",
+      "Replenish Life +20",
+      "Heal Stamina Plus 50%",
+      "All Resistances +50",
+      "Cannot Be Frozen",
+      "+5 To Light Radius"
     ]
   },
   {
@@ -1439,18 +1438,15 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +10 To Energy",
-      "(3 items) 5% Mana Stolen Per Hit",
-      "(4 items) Cold Resist +40%"
+      "(2 items) +100 Defense",
+      "(3 items) +200 Defense"
     ],
     "fullBonuses": [
-      "+10 To Energy",
-      "5% Mana Stolen Per Hit",
-      "Cold Resist +40%",
-      "+200 To Life",
-      "30% Increased Attack Speed",
-      "+5 To Light Radius",
-      "Lightning Damage +1-200"
+      "+2 To All Skills",
+      "30% Faster Run/Walk",
+      "20% Life Stolen Per Hit",
+      "+300 Defense",
+      "All Resistances +30"
     ]
   },
   {
@@ -1460,7 +1456,7 @@
     "patch": "lod",
     "ladder": false,
     "class": "Barbarian",
-    "level": 29,
+    "level": 76,
     "pieces": [
       {
         "name": "Immortal King's Will",
@@ -1531,22 +1527,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +50 To Life",
-      "(3 items) All Resistances +25",
-      "(4 items) 50% Better Chance Of Getting Magic Items",
-      "(5 items) +400 Defense",
-      "(6 items) +250 To Attack Rating, Damage Reduced By 10%"
+      "(2 items) +50 To Attack Rating",
+      "(3 items) +75 To Attack Rating",
+      "(4 items) +125 To Attack Rating",
+      "(5 items) +200 To Attack Rating"
     ],
     "fullBonuses": [
-      "+50 To Life",
-      "All Resistances +25",
-      "50% Better Chance Of Getting Magic Items",
-      "+400 Defense",
-      "+250 To Attack Rating",
-      "Damage Reduced By 10%",
-      "+2 To Combat Masteries (Barbarian Only)",
-      "+2 To Warcries (Barbarian Only)",
-      "+2 To Combat Skills (Barbarian Only)"
+      "+3 To Barbarian Skill Levels",
+      "+450 To Attack Rating",
+      "+150 To Life",
+      "All Resistances +50",
+      "Magic Damage Reduced By 10"
     ]
   },
   {
@@ -1617,19 +1608,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +100 To Attack Rating",
-      "(3 items) Freezes Target",
-      "(4 items) 5% Mana Stolen Per Hit",
-      "(5 items) +1 To Amazon Skills"
+      "(2 items) +20 To Strength",
+      "(3 items) +30 To Dexterity"
     ],
     "fullBonuses": [
-      "+100 To Attack Rating",
-      "Freezes Target",
-      "5% Mana Stolen Per Hit",
-      "+1 To Amazon Skills",
+      "+3 To Amazon Skill Levels",
+      "+20 To Strength",
+      "+30 To Dexterity",
       "All Resistances +50",
-      "+350 Defense",
-      "+20% Increased Attack Speed"
+      "+100 Defense",
+      "+100 To Attack Rating",
+      "100% Better Chance Of Getting Magic Items"
     ]
   },
   {
@@ -1639,7 +1628,7 @@
     "patch": "lod",
     "ladder": false,
     "class": "Assassin",
-    "level": 59,
+    "level": 79,
     "pieces": [
       {
         "name": "Natalya's Totem",
@@ -1688,19 +1677,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) Cold Resist +25%",
-      "(2 items) Lightning Resist +25%",
-      "(3 items) Poison Resist +25%",
-      "(4 items) +350 Defense"
+      "(2 items) Magic Damage Reduced By 15",
+      "(3 items) +200 Defense"
     ],
     "fullBonuses": [
-      "Cold Resist +25%",
-      "Lightning Resist +25%",
-      "Poison Resist +25%",
+      "+3 To Assassin Skill Levels",
       "+350 Defense",
-      "+3 To Assassin Skills",
-      "+50 To Life",
-      "+2 To Bow And Crossbow Skills"
+      "14% Life Stolen Per Hit",
+      "14% Mana Stolen Per Hit",
+      "All Resistances +50",
+      "Damage Reduced By 30%",
+      "Magic Damage Reduced By 15"
     ]
   },
   {
@@ -1749,18 +1736,19 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +75 To Mana",
-      "(3 items) +25% Faster Run/Walk"
+      "(2 items) +175 Defense",
+      "(2 items) +(1.5 Per Character Level) 1-148% Better Chance Of Getting Magic Items"
     ],
     "fullBonuses": [
-      "+75 To Mana",
-      "+25% Faster Run/Walk",
-      "+3 To Fire Skills",
-      "+3 To Lightning Skills",
-      "+3 To Cold Skills",
-      "All Resistances +65",
+      "+175 Defense",
+      "+15 To Dexterity",
+      "All Resistances +50",
+      "+20 To Strength",
+      "+100 To Mana",
       "+1 To All Skills",
-      "+75 To Life"
+      "Replenish Life +20",
+      "+2 To Fire Skills",
+      "Increase Maximum Life 12%"
     ]
   },
   {
@@ -1770,7 +1758,7 @@
     "patch": "lod",
     "ladder": false,
     "class": "Any",
-    "level": 59,
+    "level": 42,
     "pieces": [
       {
         "name": "Guillaume's Face",
@@ -1818,17 +1806,17 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) 10% Life Stolen Per Hit",
-      "(3 items) 35% Deadly Strike",
-      "(4 items) Knockback"
+      "(2 items) +35 To Life",
+      "(3 items) Attacker Takes Damage of 5"
     ],
     "fullBonuses": [
-      "10% Life Stolen Per Hit",
-      "35% Deadly Strike",
-      "Knockback",
-      "+100% Enhanced Defense",
-      "+25 To Strength",
-      "+50 To Life"
+      "+85 To Life",
+      "Attacker Takes Damage of 5",
+      "All Resistances +15",
+      "+100 Defense",
+      "+10 To Dexterity",
+      "+20 To Strength",
+      "80% Better Chance Of Getting Magic Items"
     ]
   },
   {
@@ -1877,21 +1865,21 @@
           "+1 To Necromancer Skill Levels",
           "+75% Enhanced Damage",
           "+25 To Energy",
-          "Adds 25-80 Cold Damage \u2014 2 Second Duration"
+          "Adds 25-80 Cold Damage — 2 Second Duration"
         ]
       }
     ],
     "partialBonuses": [
-      "(2 items) +75 To Mana",
-      "(3 items) +50 To Life"
+      "(2 items) +50 Defense",
+      "(3 items) +75 To Attack Rating"
     ],
     "fullBonuses": [
-      "+75 To Mana",
-      "+50 To Life",
-      "+1 To Necromancer Skills",
-      "+100 To Attack Rating",
-      "+35 To Vitality",
-      "+35 To Dexterity"
+      "+50 Defense",
+      "+75 To Attack Rating",
+      "+1 To All Skills",
+      "4% Life Stolen Per Hit",
+      "+50 To Mana",
+      "50% Better Chance Of Getting Magic Items"
     ]
   },
   {
@@ -1933,20 +1921,22 @@
           "+65 To Life",
           "30% Faster Hit Recovery",
           "20% Increased Attack Speed",
-          "Adds 25-100 Cold Damage \u2014 6 Second Duration"
+          "Adds 25-100 Cold Damage — 6 Second Duration"
         ]
       }
     ],
     "partialBonuses": [
-      "(2 items) Cold Resist +40%",
-      "(3 items) +175 To Life"
+      "(2 items) +40% Faster Run/Walk",
+      "(2 items) Poison Length Reduced By 75%"
     ],
     "fullBonuses": [
-      "Cold Resist +40%",
-      "+175 To Life",
-      "+150 Defense",
-      "30% Faster Hit Recovery",
-      "20% Increased Attack Speed"
+      "+40% Faster Run/Walk",
+      "15% Life Stolen Per Hit",
+      "Increase Maximum Life 27%",
+      "All Resistances +30",
+      "+1 To All Skills",
+      "Physical Damage Received Reduced By 16%",
+      "Poison Length Reduced By 75%"
     ]
   },
   {
@@ -1956,7 +1946,7 @@
     "patch": "lod",
     "ladder": false,
     "class": "Sorceress",
-    "level": 26,
+    "level": 71,
     "pieces": [
       {
         "name": "Tal Rasha's Lidless Eye",
@@ -2018,23 +2008,19 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +65 To Life",
-      "(2 items) +150 To Mana",
-      "(3 items) +50 To Mana",
-      "(3 items) Lightning Resist +33%",
-      "(4 items) Cold Resist +33%",
-      "(4 items) Fire Resist +33%"
+      "(2 items) Replenish Life +10",
+      "(3 items) 65% Better Chance Of Getting Magic Items",
+      "(4 items) 25% Faster Hit Recovery"
     ],
     "fullBonuses": [
-      "+65 To Life",
-      "+150 To Mana",
-      "Lightning Resist +33%",
-      "Cold Resist +33%",
-      "Fire Resist +33%",
-      "+2 To Sorceress Skills",
-      "+3 To Fire Mastery",
-      "+3 To Lightning Mastery",
-      "+3 To Cold Mastery"
+      "+3 To Sorceress Skill Levels",
+      "Replenish Life +10",
+      "65% Better Chance Of Getting Magic Items",
+      "25% Faster Hit Recovery",
+      "+150 To Life",
+      "All Resistances +50",
+      "+50 Defense vs. Missile",
+      "+150 Defense"
     ]
   },
   {
@@ -2044,7 +2030,7 @@
     "patch": "lod",
     "ladder": false,
     "class": "Necromancer",
-    "level": 32,
+    "level": 65,
     "pieces": [
       {
         "name": "Trang-Oul's Guise",
@@ -2108,20 +2094,25 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) Cold Resist +40%",
-      "(3 items) Fire Resist +40%",
-      "(4 items) 20% Faster Cast Rate",
-      "(5 items) Regenerate Mana 15%"
+      "(2 items) +18 To Fireball",
+      "(2 items) Regenerate Mana 15%",
+      "(3 items) +13 To Fire Wall",
+      "(3 items) Regenerate Mana 15%",
+      "(4 items) +10 To Meteor",
+      "(4 items) Regenerate Mana 15%"
     ],
     "fullBonuses": [
-      "Cold Resist +40%",
-      "Fire Resist +40%",
-      "20% Faster Cast Rate",
-      "Regenerate Mana 15%",
-      "+25% Damage To Undead",
-      "+150 Defense",
-      "+2 To Necromancer Skills",
-      "+1 To Curses (Necromancer Only)"
+      "+3 To Necromancer Skill Levels",
+      "20% Life Stolen Per Hit",
+      "+3 To Fire Mastery",
+      "+10 To Meteor",
+      "+13 To Fire Wall",
+      "+18 To Fireball",
+      "+200 Defense",
+      "+100 To Mana",
+      "Regenerate Mana 60%",
+      "All Resistances +50",
+      "Transform Into Vampire"
     ]
   },
   {
@@ -2167,17 +2158,12 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) +3 To Mana After Each Kill",
-      "(2 items) +25% Faster Hit Recovery",
-      "(3 items) +30% Deadly Strike",
-      "(3 items) +(792 Per Character Level) To Attack Rating",
-      "(3 items) +15 To Energy"
+      "(2 items) +80% Enhanced Damage"
     ],
     "fullBonuses": [
       "+1 To All Skills",
-      "+25% Faster Cast Rate",
-      "+80% Enhanced Damage",
       "+15 To Dexterity",
+      "+25% Faster Cast Rate",
       "40% Better Chance Of Getting Magic Items"
     ]
   },
@@ -2264,27 +2250,16 @@
       }
     ],
     "partialBonuses": [
-      "(2 items) Increase Maximum Life 5%",
-      "(2 items) Poison Resist +25%",
-      "(2 items) +30% Increased Attack Speed",
-      "(2 items) +10% Faster Run/Walk",
-      "(2 items) Poison Length Reduced By 75%",
-      "(3 items) 7% Mana Stolen Per Hit",
-      "(4 items) +15 To Strength",
-      "(4 items) +15 To Vitality",
-      "(4 items) 7% Life Stolen Per Hit",
-      "(4 items) +15 To Energy",
-      "(4 items) -25% To Enemy Fire Resistance"
+      "(2 items) +20 To Dexterity",
+      "(3 items) +30 To Energy",
+      "(4 items) +300 Defense"
     ],
     "fullBonuses": [
+      "All Resistances +50",
       "+3 To Warlock Skills",
       "+350% Enhanced Damage",
-      "+30 To Enchant",
-      "+300 Defense",
-      "+20 To Dexterity",
-      "+30 To Energy",
-      "All Resistances +50",
-      "100% Better Chance Of Getting Magic Items"
+      "100% Better Chance Of Getting Magic Items",
+      "+30 To Enchant"
     ]
   },
   {
@@ -2295,7 +2270,7 @@
     "ladder": false,
     "class": "Any",
     "expansion": "Reign of the Warlock",
-    "level": 75,
+    "level": 76,
     "note": "Colossal Ancient Statue drop",
     "pieces": [
       {
@@ -2482,7 +2457,7 @@
     "ladder": false,
     "class": "Barbarian",
     "expansion": "Reign of the Warlock",
-    "level": 75,
+    "level": 76,
     "note": "Colossal Ancient Statue drop",
     "pieces": [
       {
