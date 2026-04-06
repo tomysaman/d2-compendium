@@ -1,0 +1,304 @@
+/* =====================================================
+   DIABLO II — HORADRIC CUBE RECIPES — recipes-styles.css
+   ===================================================== */
+
+/* ══════════════════════════════════════════
+   CATEGORY GROUP HEADERS
+══════════════════════════════════════════ */
+.recipe-category-header {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 0 4px;
+  margin-top: 12px;
+}
+.recipe-category-header:first-child { margin-top: 0; }
+
+.recipe-category-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--border) 0%, transparent 100%);
+}
+.recipe-category-text {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  white-space: nowrap;
+}
+
+/* Category-specific header colours */
+.category-gems     .recipe-category-text { color: #b060e8; }
+.category-gems     .recipe-category-line { background: linear-gradient(90deg, #3a1a5a, transparent); }
+.category-runes    .recipe-category-text { color: var(--blue-rune); }
+.category-runes    .recipe-category-line { background: linear-gradient(90deg, #1a3050, transparent); }
+.category-socketing .recipe-category-text { color: #60b8c0; }
+.category-socketing .recipe-category-line { background: linear-gradient(90deg, #0e2a2c, transparent); }
+.category-upgrade  .recipe-category-text { color: #c89030; }
+.category-upgrade  .recipe-category-line { background: linear-gradient(90deg, #4a3a1a, transparent); }
+.category-reroll   .recipe-category-text { color: #e87040; }
+.category-reroll   .recipe-category-line { background: linear-gradient(90deg, #4a2010, transparent); }
+.category-crafting .recipe-category-text { color: var(--green-set); }
+.category-crafting .recipe-category-line { background: linear-gradient(90deg, #0e2a1a, transparent); }
+.category-respec   .recipe-category-text { color: #f0b840; }
+.category-respec   .recipe-category-line { background: linear-gradient(90deg, #4a3008, transparent); }
+.category-quest    .recipe-category-text { color: var(--red-bright); }
+.category-quest    .recipe-category-line { background: linear-gradient(90deg, #4a1010, transparent); }
+.category-jewelry  .recipe-category-text { color: #e8b860; }
+.category-jewelry  .recipe-category-line { background: linear-gradient(90deg, #4a3810, transparent); }
+.category-misc     .recipe-category-text { color: var(--text-secondary); }
+.category-misc     .recipe-category-line { background: linear-gradient(90deg, var(--border), transparent); }
+
+/* ══════════════════════════════════════════
+   RECIPES GRID
+══════════════════════════════════════════ */
+.recipes-category-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.recipes-category-section .category-grid,
+.recipes-flat-grid .recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 14px;
+}
+
+#recipesGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ══════════════════════════════════════════
+   RECIPE CARD
+══════════════════════════════════════════ */
+.recipe-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
+  box-shadow: var(--shadow-card);
+  border-left: 3px solid transparent;
+}
+
+/* Category left-border tints */
+.category-jewelry  .recipe-card { border-left-color: #8a601888; }
+.category-runes    .recipe-card { border-left-color: #3a6a9888; }
+.category-socketing .recipe-card { border-left-color: #2a7a8088; }
+.category-upgrade  .recipe-card { border-left-color: #8a601888; }
+.category-reroll   .recipe-card { border-left-color: #9a402088; }
+.category-crafting .recipe-card { border-left-color: #2a7a4088; }
+.category-respec   .recipe-card { border-left-color: #8a701888; }
+.category-quest    .recipe-card { border-left-color: #8a201888; }
+.category-misc     .recipe-card { border-left-color: #3a2e1a88; }
+
+/* Flat view (no category wrapper) uses category data directly */
+.recipe-card[class*="category-gems"]     { border-left-color: #7a30a888; }
+
+.recipe-card.is-expansion {
+  border-color: #5a2810;
+}
+.recipe-card.is-expansion::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(200,80,30,0.05) 0%, transparent 60%);
+  pointer-events: none;
+}
+.recipe-card.is-expansion:hover {
+  border-color: var(--red-hell);
+  box-shadow: var(--shadow-card), 0 0 20px rgba(200,57,27,0.2);
+}
+.recipe-card.is-ladder {
+  border-color: #3a1a3a;
+}
+
+/* Card head */
+.recipe-card-head {
+  padding: 14px 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.recipe-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+.recipe-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gold-bright);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.recipe-card.is-expansion .recipe-name { color: #e87040; }
+.recipe-card.is-ladder .recipe-name { color: #c070c0; }
+
+.recipe-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+/* Category badge colours */
+.badge-category { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; border-radius: 4px; padding: 2px 8px; }
+.badge-cat-jewelry   { background: #1e1808; border: 1px solid #5a4010; color: #e8b860; }
+.badge-cat-runes     { background: #0a1e30; border: 1px solid #1a4a6a; color: var(--blue-rune); }
+.badge-cat-socketing { background: #0a2428; border: 1px solid #1a5858; color: #60b8c0; }
+.badge-cat-upgrade   { background: #1e1408; border: 1px solid #5a3a08; color: #c89030; }
+.badge-cat-reroll    { background: #1e0e08; border: 1px solid #6a2a0a; color: #e87040; }
+.badge-cat-crafting  { background: #0a1e10; border: 1px solid #1a5a2a; color: var(--green-set); }
+.badge-cat-respec    { background: #1e1808; border: 1px solid #5a4808; color: #f0b840; }
+.badge-cat-quest     { background: #1e0808; border: 1px solid #6a1010; color: var(--red-bright); }
+.badge-cat-misc      { background: var(--bg-card); border: 1px solid var(--border); color: var(--text-secondary); }
+
+/* Inputs preview */
+.recipe-inputs-preview {
+  border-top: 1px solid var(--border);
+  padding: 8px 16px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.recipe-section-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 4px;
+}
+.recipe-input-line {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.recipe-qty {
+  color: var(--gold-dim);
+  font-weight: 600;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+.recipe-more {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* Output preview */
+.recipe-output-preview {
+  border-top: 1px solid var(--border);
+  padding: 8px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.recipe-output-line {
+  color: var(--green-set);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════════
+   MODAL — RECIPES
+══════════════════════════════════════════ */
+.modal-recipe-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--gold-bright);
+  line-height: 1.1;
+  margin-bottom: 6px;
+}
+.modal-recipe-name.is-expansion { color: #e87040; }
+
+.modal-recipe-desc {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.55;
+  margin-bottom: 4px;
+  font-style: italic;
+}
+
+.modal-ingredients-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 2px;
+}
+.modal-ingredient {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 12px;
+  background: #111009;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+.modal-ingredient-qty {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--gold-dim);
+  min-width: 24px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.modal-ingredient-name {
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.modal-results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 2px;
+}
+.modal-result-item {
+  padding: 8px 14px;
+  background: rgba(95,184,122,0.07);
+  border: 1px solid rgba(95,184,122,0.3);
+  border-radius: var(--radius-md);
+  color: var(--green-set);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.modal-recipe-notes {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  padding: 10px 14px;
+  background: #1a1008;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  margin-top: 2px;
+}
+
+/* ══════════════════════════════════════════
+   FLAT GRID (non-category sort)
+══════════════════════════════════════════ */
+.recipes-flat-grid .recipe-card {
+  border-left: 3px solid var(--border);
+}
+
+@media (max-width: 700px) {
+  .recipes-category-section .category-grid,
+  .recipes-flat-grid .recipes-grid {
+    grid-template-columns: 1fr;
+  }
+}

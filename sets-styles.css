@@ -3,6 +3,10 @@
    ===================================================== */
 
 /* ── Nav links in header ── */
+.header-title-block {
+  flex: 1;
+}
+
 .site-nav {
   display: flex;
   gap: 8px;
