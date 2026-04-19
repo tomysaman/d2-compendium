@@ -2424,7 +2424,7 @@
   },
   {
     "id": 84,
-    "name": "Hustle",
+    "name": "Hustle (Hysteria)",
     "runes": [
       "Shael",
       "Ko",
@@ -2713,31 +2713,6 @@
       "+3-5 Life After Each Kill",
       "Slain Monsters Rest In Peace",
       "7% Life Stolen Per Hit"
-    ]
-  },
-  {
-    "id": 94,
-    "name": "Hysteria",
-    "runes": [
-      "Shael",
-      "Ith",
-      "Ko"
-    ],
-    "sockets": 3,
-    "itemTypes": [
-      "Body Armor"
-    ],
-    "level": 35,
-    "patch": "2.6",
-    "ladder": true,
-    "stats": [
-      "+65% Faster Run/Walk",
-      "+40% Increased Attack Speed",
-      "+20% Faster Hit Recovery",
-      "+6 To Evade",
-      "+10 To Dexterity",
-      "50% Slower Stamina Drain",
-      "All Resistances +10"
     ]
   },
   {

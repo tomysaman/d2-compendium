@@ -26,6 +26,7 @@ web.xml
 *.zip
 
 # Folders
+.vscode/
 nbproject/
 nbproject/private/
 node_modules/
