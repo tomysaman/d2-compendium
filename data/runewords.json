@@ -659,7 +659,14 @@
     ],
     "sockets": 5,
     "itemTypes": [
-      "Weapon"
+      "Axe",
+      "Hammer",
+      "Mace",
+      "Scepter",
+      "Staff",
+      "Sword",
+      "Spear",
+      "Polearm"
     ],
     "level": 63,
     "patch": "classic",
@@ -827,7 +834,17 @@
     ],
     "sockets": 3,
     "itemTypes": [
-      "Weapon"
+      "Axe",
+      "Club",
+      "Hammer",
+      "Mace",
+      "Scepter",
+      "Staff",
+      "Katar",
+      "Sword",
+      "Dagger",
+      "Spear",
+      "Polearm"
     ],
     "level": 65,
     "patch": "classic",
@@ -1039,7 +1056,14 @@
     ],
     "sockets": 5,
     "itemTypes": [
-      "Weapon"
+      "Axe",
+      "Hammer",
+      "Mace",
+      "Scepter",
+      "Staff",
+      "Sword",
+      "Spear",
+      "Polearm"
     ],
     "level": 27,
     "patch": "classic",
@@ -1355,7 +1379,17 @@
     ],
     "sockets": 3,
     "itemTypes": [
-      "Weapon"
+      "Axe",
+      "Club",
+      "Hammer",
+      "Mace",
+      "Scepter",
+      "Staff",
+      "Katar",
+      "Sword",
+      "Dagger",
+      "Spear",
+      "Polearm"
     ],
     "level": 15,
     "patch": "classic",
@@ -2196,7 +2230,18 @@
     ],
     "sockets": 2,
     "itemTypes": [
-      "Weapon"
+      "Axe",
+      "Club",
+      "Hammer",
+      "Mace",
+      "Scepter",
+      "Wand",
+      "Staff",
+      "Katar",
+      "Sword",
+      "Dagger",
+      "Spear",
+      "Polearm"
     ],
     "level": 25,
     "patch": "classic",
@@ -2349,7 +2394,18 @@
     ],
     "sockets": 2,
     "itemTypes": [
-      "Weapon"
+      "Axe",
+      "Club",
+      "Hammer",
+      "Mace",
+      "Scepter",
+      "Wand",
+      "Staff",
+      "Katar",
+      "Sword",
+      "Dagger",
+      "Spear",
+      "Polearm"
     ],
     "level": 61,
     "patch": "classic",
