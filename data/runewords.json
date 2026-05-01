@@ -157,7 +157,7 @@
     ],
     "level": 65,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "100% Chance To Cast Level 18 Bone Spear On Striking",
       "35% Chance To Cast Level 14 Amplify Damage When Struck",
@@ -340,7 +340,7 @@
     ],
     "level": 55,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "100% Chance To Cast Level 44 Chain Lightning When You Die",
       "25% Chance To Cast Level 18 Glacial Spike On Attack",
@@ -371,7 +371,7 @@
     ],
     "level": 51,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "+2 To All Skills",
       "1% Chance To Cast Level 50 Delirium (Morph) When Struck",
@@ -402,7 +402,7 @@
     ],
     "level": 65,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "100% Chance To Cast Level 45 Meteor When You Die",
       "15% Chance To Cast Level 22 Nova On Attack",
@@ -466,7 +466,7 @@
     ],
     "level": 61,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "statsByType": {
       "Body Armor": [
         "Level 14 Holy Fire Aura When Equipped",
@@ -509,7 +509,7 @@
     ],
     "level": 65,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "statsByType": {
       "Helm": [
         "Level 15 Holy Shock Aura When Equipped",
@@ -580,7 +580,7 @@
     ],
     "level": 25,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "Level 15 Thorns Aura When Equipped",
       "+35% Increased Attack Speed",
@@ -636,7 +636,7 @@
     ],
     "level": 45,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "+2 To Sorceress Skill Levels",
       "+1 To Warmth",
@@ -694,7 +694,7 @@
     ],
     "level": 57,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "+2 To Offensive Auras (Paladin Only)",
       "Level 13-16 Defiance Aura When Equipped",
@@ -724,7 +724,7 @@
     ],
     "level": 65,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "+1-2 To All Skills",
       "Level 12-15 Fanaticism Aura When Equipped",
@@ -785,7 +785,7 @@
     ],
     "level": 59,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "statsByType": {
       "Weapon": [
         "20% Chance To Cast Level 15 Chilling Armor When Struck",
@@ -888,7 +888,7 @@
     ],
     "level": 59,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "35% Chance To Cast Level 15 Venom On Striking",
       "+30-40% Increased Attack Speed",
@@ -919,7 +919,7 @@
     ],
     "level": 67,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "Level 16 Holy Fire Aura When Equipped",
       "100% Chance To Cast Level 36 Blaze When You Level-Up",
@@ -949,7 +949,7 @@
     ],
     "level": 39,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "+2-6 To Valkyrie",
       "Level 10 Vigor Aura When Equipped",
@@ -1073,7 +1073,7 @@
     ],
     "level": 65,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "Level 18 Holy Freeze Aura When Equipped",
       "100% Chance To Cast Level 40 Blizzard When You Level-Up",
@@ -1104,7 +1104,7 @@
     ],
     "level": 63,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "Level 12 Conviction Aura When Equipped",
       "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy",
@@ -1227,7 +1227,7 @@
     ],
     "level": 65,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "Level 17 Might Aura When Equipped",
       "10% Chance To Cast Level 18 Life Tap On Striking",
@@ -1444,7 +1444,7 @@
     ],
     "level": 67,
     "patch": "2.4",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "+3 To All Skills",
       "Level 8-12 Concentration Aura When Equipped",
@@ -1581,7 +1581,7 @@
     ],
     "level": 49,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "30% Chance To Cast Level 20 Bone Spirit On Striking",
       "Indestructible",
@@ -1735,7 +1735,7 @@
     ],
     "level": 65,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "statsByType": {
       "Weapon": [
         "Level 10-15 Redemption Aura When Equipped",
@@ -1778,7 +1778,7 @@
     ],
     "level": 67,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "Level 16-20 Concentration Aura When Equipped",
       "25% Chance To Cast Level 17 Fire Wall When Struck",
@@ -1935,7 +1935,7 @@
     ],
     "level": 53,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "16% Chance To Cast Level 21 Frozen Orb On Attack",
       "20% Chance To Cast Level 16 Tornado On Striking",
@@ -2382,7 +2382,7 @@
     ],
     "level": 63,
     "patch": "classic",
-    "ladder": true,
+    "ladder": false,
     "stats": [
       "30% Chance To Cast Level 1 Decrepify On Striking",
       "5% Chance To Cast Level 10 Life Tap On Striking",
@@ -2725,21 +2725,19 @@
     ],
     "sockets": 3,
     "itemTypes": [
-      "Sword",
-      "Axe",
-      "Mace"
+      "Weapon"
     ],
     "level": 39,
     "patch": "2.6",
     "ladder": true,
     "stats": [
-      "+35% Increased Attack Speed",
-      "+150-200% Enhanced Damage",
-      "+100% Damage To Undead",
-      "+75 To Attack Rating Against Undead",
-      "+5 To Strength",
-      "Level 1 Burst of Speed (10 Charges)",
-      "Level 3 Fanaticism (12 Charges)"
+      "Level 1 Fanaticism Aura When Equipped",
+      "5% Chance To Cast Level 1 Burst Of Speed On Striking",
+      "+30% Increased Attack Speed",
+      "+180-200% Enhanced Damage",
+      "+75% Damage To Undead",
+      "+50 To Attack Rating Against Undead",
+      "+10 To Dexterity"
     ]
   },
   {
@@ -2784,7 +2782,7 @@
     ],
     "level": 35,
     "patch": "2.6",
-    "ladder": false,
+    "ladder": true,
     "stats": [
       "+20% Faster Hit Recovery",
       "+4-6% Life Stolen Per Hit",
@@ -2810,7 +2808,7 @@
     ],
     "level": 35,
     "patch": "2.6",
-    "ladder": false,
+    "ladder": true,
     "stats": [
       "Level 1 Cleansing Aura When Equipped",
       "+20% Faster Hit Recovery",
@@ -2908,7 +2906,7 @@
     ],
     "level": 67,
     "patch": "2.6",
-    "ladder": false,
+    "ladder": true,
     "stats": [
       "+5 To Shape Shifting Skills (Druid Only)",
       "+25% Chance of Crushing Blow",
